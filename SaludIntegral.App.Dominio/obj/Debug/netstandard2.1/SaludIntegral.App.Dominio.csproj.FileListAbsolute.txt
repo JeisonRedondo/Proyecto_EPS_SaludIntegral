@@ -1,0 +1,9 @@
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Dominio\bin\Debug\netstandard2.1\SaludIntegral.App.Dominio.deps.json
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Dominio\bin\Debug\netstandard2.1\SaludIntegral.App.Dominio.dll
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Dominio\bin\Debug\netstandard2.1\SaludIntegral.App.Dominio.pdb
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\netstandard2.1\SaludIntegral.App.Dominio.csprojAssemblyReference.cache
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\netstandard2.1\SaludIntegral.App.Dominio.AssemblyInfoInputs.cache
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\netstandard2.1\SaludIntegral.App.Dominio.AssemblyInfo.cs
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\netstandard2.1\SaludIntegral.App.Dominio.csproj.CoreCompileInputs.cache
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\netstandard2.1\SaludIntegral.App.Dominio.dll
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\netstandard2.1\SaludIntegral.App.Dominio.pdb

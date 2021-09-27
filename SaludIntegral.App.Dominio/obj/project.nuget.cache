@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Xu6r03NwR4xBN4iV+wz5L/xNDLqjquMtbzMaQi77tfTzQYEGKneECMmBXgtgfhvCp1hKG8wsfKdEJTPJt8x6QQ==",
+  "success": true,
+  "projectFilePath": "C:\\ProyectoEPS\\SaludIntegral.App\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\draku\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\draku\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

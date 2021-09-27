@@ -1,0 +1,12 @@
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Persistencia\bin\Debug\netstandard2.1\SaludIntegral.App.Persistencia.deps.json
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Persistencia\bin\Debug\netstandard2.1\SaludIntegral.App.Persistencia.dll
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Persistencia\bin\Debug\netstandard2.1\SaludIntegral.App.Persistencia.pdb
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.csprojAssemblyReference.cache
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.AssemblyInfoInputs.cache
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.AssemblyInfo.cs
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.dll
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.pdb
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Persistencia\bin\Debug\netstandard2.1\SaludIntegral.App.Dominio.dll
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Persistencia\bin\Debug\netstandard2.1\SaludIntegral.App.Dominio.pdb
+C:\ProyectoEPS\SaludIntegral.App\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.csproj.CopyComplete

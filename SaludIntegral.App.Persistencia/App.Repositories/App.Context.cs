@@ -20,6 +20,7 @@ namespace SaludIntegral.App.Persistencia
            {
                optionsBuilder
                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = EPSsaludintegral.Data");
+               //inicio de linux
            }
        }
 

@@ -6,9 +6,10 @@ namespace SaludIntegral.App.Dominio
     public class Locations
     {
       
-        public int Id_locations { get; set;}
+        public int Id{ get; set;}
+        public string Name_Location { get; set;}
         public string Address { get; set;}
-        public string City { get; set;}
+        public Cities City { get; set;}
         
 
     }

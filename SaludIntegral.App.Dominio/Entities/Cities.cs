@@ -1,11 +1,14 @@
 using System;
 
+
 namespace SaludIntegral.App.Dominio
 {
-    public class Medic:Person
+    public class Cities
     {
+      
         public int Id{ get; set;}
-        public string Specialization { get; set;}
+        public string Name_City { get; set;}
+        
         
 
     }

@@ -8,7 +8,7 @@ namespace SaludIntegral.App.Persistencia
        public DbSet<Person> Personas { get; set;}
        public DbSet<Patient> Pacientes {get;set;}
        public DbSet<Medic> Medicos {get;set;}
-       public DbSet<Questionnaire> Cuestionario {get;set;}
+       
       public DbSet<Schedule> Agendas {get;set;}
         public DbSet<EPS> EPSs {get;set;}
        public DbSet<IPS> IPSs {get;set;}

@@ -6,8 +6,5 @@ namespace SaludIntegral.App.Dominio
     {
         public int Id { get; set;}
         public string EPS { get; set;}
-        
-        
-
     }
 }

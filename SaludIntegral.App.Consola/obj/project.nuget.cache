@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zdPKRN34E5XwWr9j+iWWM16BhWAqeeb5kxjWqTDfeyhYa/pADZ408QpzQCMGSXiaEsKRciq9Cy+nAMEufVy2EA==",
+  "dgSpecHash": "agoyF8yrmN/qh3B7cH5NFx0UQa2V57q4ll6zUVFf8rCw8Gl4uo6m8hFfHK516Gsb3eJQ/gaz/ZpVDj6CT5BlKg==",
   "success": true,
-  "projectFilePath": "C:\\ProyectoEPS\\SaludIntegral.App\\SaludIntegral.App.Consola\\SaludIntegral.App.Consola.csproj",
+  "projectFilePath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Consola\\SaludIntegral.App.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\draku\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\draku\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

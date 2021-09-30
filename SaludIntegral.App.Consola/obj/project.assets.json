@@ -1511,7 +1511,11 @@
       },
       "SaludIntegral.App.Dominio/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
+        },
         "compile": {
           "bin/placeholder/SaludIntegral.App.Dominio.dll": {}
         },
@@ -5801,11 +5805,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectoEPS\\SaludIntegral.App\\SaludIntegral.App.Consola\\SaludIntegral.App.Consola.csproj",
+      "projectUniqueName": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Consola\\SaludIntegral.App.Consola.csproj",
       "projectName": "SaludIntegral.App.Consola",
-      "projectPath": "C:\\ProyectoEPS\\SaludIntegral.App\\SaludIntegral.App.Consola\\SaludIntegral.App.Consola.csproj",
+      "projectPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Consola\\SaludIntegral.App.Consola.csproj",
       "packagesPath": "C:\\Users\\draku\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectoEPS\\SaludIntegral.App\\SaludIntegral.App.Consola\\obj\\",
+      "outputPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\draku\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5819,8 +5823,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\ProyectoEPS\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj": {
-              "projectPath": "C:\\ProyectoEPS\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj"
+            "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj": {
+              "projectPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj"
             }
           }
         }

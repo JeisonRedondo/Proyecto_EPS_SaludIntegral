@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SaludIntegral.App.Persistencia\SaludIntegral.App.Persistencia.csproj" />
+    <ProjectReference Include="..\SaludIntegral.App.Dominio\SaludIntegral.App.Dominio.csproj" />
   </ItemGroup>
 
   <ItemGroup>

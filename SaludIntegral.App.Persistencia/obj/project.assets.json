@@ -2071,7 +2071,11 @@
       },
       "SaludIntegral.App.Dominio/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
+        },
         "compile": {
           "bin/placeholder/SaludIntegral.App.Dominio.dll": {}
         },
@@ -7268,11 +7272,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectoEPS\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj",
       "projectName": "SaludIntegral.App.Persistencia",
-      "projectPath": "C:\\ProyectoEPS\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj",
+      "projectPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj",
       "packagesPath": "C:\\Users\\draku\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectoEPS\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\obj\\",
+      "outputPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\draku\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7286,8 +7290,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\ProyectoEPS\\SaludIntegral.App\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj": {
-              "projectPath": "C:\\ProyectoEPS\\SaludIntegral.App\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj"
+            "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj": {
+              "projectPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj"
             }
           }
         }

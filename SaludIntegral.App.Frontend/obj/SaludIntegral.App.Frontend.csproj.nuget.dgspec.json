@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Frontend\\SaludIntegral.App.Frontend.csproj": {}
+    "/Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Frontend/SaludIntegral.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Frontend\\SaludIntegral.App.Frontend.csproj": {
+    "/Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Frontend/SaludIntegral.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Frontend\\SaludIntegral.App.Frontend.csproj",
+        "projectUniqueName": "/Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Frontend/SaludIntegral.App.Frontend.csproj",
         "projectName": "SaludIntegral.App.Frontend",
-        "projectPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Frontend\\SaludIntegral.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\draku\\.nuget\\packages\\",
-        "outputPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Frontend\\obj\\",
+        "projectPath": "/Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Frontend/SaludIntegral.App.Frontend.csproj",
+        "packagesPath": "/home/jose/.nuget/packages/",
+        "outputPath": "/Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Frontend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\draku\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/jose/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.413/RuntimeIdentifierGraph.json"
         }
       }
     }

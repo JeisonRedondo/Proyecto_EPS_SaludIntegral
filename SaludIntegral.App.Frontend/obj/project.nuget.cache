@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O/ZhkotXd333aL1TGzUHDYIeWJuVge5gJRWKNiBb4H4u/YRjFpZMsui+v4Hc7xogT0q7EBnDoFx/7XELG+UdrA==",
+  "dgSpecHash": "toswn1n7Wh59RVPKUfqhHLL1fXgdzSMFL39tjo0SFZvlU9exzqslupUBecY3e90XVWrwaJTbpgSM4bbaK0k8RQ==",
   "success": true,
-  "projectFilePath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Frontend\\SaludIntegral.App.Frontend.csproj",
+  "projectFilePath": "/Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Frontend/SaludIntegral.App.Frontend.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

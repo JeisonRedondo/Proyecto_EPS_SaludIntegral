@@ -9,6 +9,7 @@
       "SaludIntegral.App.Consola/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "5.0.0",
+          "SaludIntegral.App.Dominio": "1.0.0",
           "SaludIntegral.App.Persistencia": "1.0.0"
         },
         "runtime": {

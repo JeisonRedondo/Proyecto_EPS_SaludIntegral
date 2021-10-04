@@ -25,6 +25,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj": {
+                "projectPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj"
+              },
               "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj": {
                 "projectPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj"
               }

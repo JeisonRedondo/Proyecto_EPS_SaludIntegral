@@ -9,7 +9,7 @@ namespace SaludIntegral.App.Persistencia
     {
      IEnumerable<Medic> GetAllMedics();
      
-     Medic AddMedic(Medic Medic);
+     Medic AddMedic(Medic medic);
 
      Medic UpdateMedic(Medic medic);
 

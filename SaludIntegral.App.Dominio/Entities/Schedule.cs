@@ -9,5 +9,6 @@ namespace SaludIntegral.App.Dominio
         public Medic Medic { get; set;}
         public DateTime Date { get; set;}
         public string  Note { get; set;}
+        
      }
 }

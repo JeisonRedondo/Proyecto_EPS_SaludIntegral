@@ -59,8 +59,10 @@ namespace SaludIntegral.App.Persistencia.Migrations
 
             modelBuilder.Entity("SaludIntegral.App.Dominio.Person", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
 
                     b.Property<string>("Age")
                         .HasColumnType("nvarchar(max)");
@@ -106,8 +108,8 @@ namespace SaludIntegral.App.Persistencia.Migrations
                     b.Property<int?>("LocationId")
                         .HasColumnType("int");
 
-                    b.Property<string>("MedicId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int?>("MedicId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Note")
                         .HasColumnType("nvarchar(max)");

@@ -7247,19 +7247,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\draku\\.nuget\\packages\\": {}
+    "/home/jose/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj",
+      "projectUniqueName": "/Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Dominio/SaludIntegral.App.Dominio.csproj",
       "projectName": "SaludIntegral.App.Dominio",
-      "projectPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\draku\\.nuget\\packages\\",
-      "outputPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Dominio\\obj\\",
+      "projectPath": "/Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Dominio/SaludIntegral.App.Dominio.csproj",
+      "packagesPath": "/home/jose/.nuget/packages/",
+      "outputPath": "/Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Dominio/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\draku\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/jose/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7317,7 +7317,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.413/RuntimeIdentifierGraph.json"
       }
     }
   }

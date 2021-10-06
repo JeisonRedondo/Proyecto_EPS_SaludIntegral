@@ -10,20 +10,20 @@ namespace SaludIntegral.App.Consola
         static void Main(string[] args)
         {
            Console.WriteLine("Hello World EF!");
-           //AddPatient(); 
-           SearchPatient(3);
+           AddPatient(); 
+           //SearchPatient(3);
         }
 
         private static void AddPatient()
         {
             var patient1 = new Patient
             {
-                Id = 4,
-                Names = "Juan Robles",
-                Age = "34",
-                Gender = "Male",
+                
+                Names = "Ana rodrigez",
+                Age = "25",
+                Gender = "Female",
                 Phone_number = "3113456789",
-                Email = "Juroqeer@mail.com",
+                Email = "anaeer@mail.com",
 
             };
             _repoPatient.AddPatient(patient1);

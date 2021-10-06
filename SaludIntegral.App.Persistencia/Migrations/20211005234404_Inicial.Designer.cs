@@ -10,7 +10,7 @@ using SaludIntegral.App.Persistencia;
 namespace SaludIntegral.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20211003234511_Inicial")]
+    [Migration("20211005234404_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

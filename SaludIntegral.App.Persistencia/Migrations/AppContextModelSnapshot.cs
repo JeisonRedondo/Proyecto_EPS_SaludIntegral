@@ -64,8 +64,8 @@ namespace SaludIntegral.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<string>("Age")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("DateOfBirth")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Discriminator")
                         .IsRequired()
@@ -77,10 +77,16 @@ namespace SaludIntegral.App.Persistencia.Migrations
                     b.Property<string>("Gender")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Identification")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int?>("LocationId")
                         .HasColumnType("int");
 
                     b.Property<string>("Names")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Phone_number")
@@ -114,11 +120,16 @@ namespace SaludIntegral.App.Persistencia.Migrations
                     b.Property<string>("Note")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("PatientId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("LocationId");
 
                     b.HasIndex("MedicId");
+
+                    b.HasIndex("PatientId");
 
                     b.ToTable("Agendas");
                 });
@@ -171,9 +182,15 @@ namespace SaludIntegral.App.Persistencia.Migrations
                         .WithMany()
                         .HasForeignKey("MedicId");
 
+                    b.HasOne("SaludIntegral.App.Dominio.Patient", "Patient")
+                        .WithMany()
+                        .HasForeignKey("PatientId");
+
                     b.Navigation("Location");
 
                     b.Navigation("Medic");
+
+                    b.Navigation("Patient");
                 });
 #pragma warning restore 612, 618
         }

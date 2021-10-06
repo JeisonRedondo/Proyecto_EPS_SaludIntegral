@@ -50,13 +50,15 @@ namespace SaludIntegral.App.Persistencia
 
             if (pacienteEncontrado != null)
             {
+                pacienteEncontrado.Identification = Paciente.Identification;
                 pacienteEncontrado.Names = Paciente.Names;
-                pacienteEncontrado.Age = Paciente.Age;
-                pacienteEncontrado.Gender = Paciente.Age;
+                pacienteEncontrado.DateOfBirth = Paciente.DateOfBirth;
+                pacienteEncontrado.Gender = Paciente.Gender;
                 pacienteEncontrado.Phone_number = Paciente.Phone_number;
                 pacienteEncontrado.Email = Paciente.Email;
                 pacienteEncontrado.Location = Paciente.Location;
                 pacienteEncontrado.EPS = Paciente.EPS;
+                pacienteEncontrado.Password = Paciente.Password;
                 
                 _appContext.SaveChanges();
             }

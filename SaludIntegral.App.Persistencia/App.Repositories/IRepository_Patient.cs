@@ -6,13 +6,21 @@ using SaludIntegral.App.Dominio;
 namespace SaludIntegral.App.Persistencia
 
 {
-    public interface IRepositoriesPatient
+    public interface IRepository_Patient
     {
-        IEnumerable<Patient> GetAllPacientes();
+        IEnumerable<Patient> GetAllPatients();
+
         Patient AddPatient(Patient Paciente);
+
         Patient UpdatePatient(Patient Paciente);
-        void DeletePatient(int idPatient);
+
+        void DeletePatients(int idPatient);
+
         Patient GetPatient(int idPatient);
+
+        Locations AddLocationsInPatient(int idPaciente , int idSede);
+
+        
     
     }
 }

@@ -10,7 +10,7 @@ using SaludIntegral.App.Persistencia;
 namespace SaludIntegral.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20211006034851_Inicial")]
+    [Migration("20211008031848_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -20,21 +20,6 @@ namespace SaludIntegral.App.Persistencia.Migrations
                 .UseIdentityColumns()
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
-
-            modelBuilder.Entity("SaludIntegral.App.Dominio.Cities", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
-
-                    b.Property<string>("Name_City")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Ciudades");
-                });
 
             modelBuilder.Entity("SaludIntegral.App.Dominio.Locations", b =>
                 {
@@ -46,15 +31,13 @@ namespace SaludIntegral.App.Persistencia.Migrations
                     b.Property<string>("Address")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("CityId")
-                        .HasColumnType("int");
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name_Location")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CityId");
 
                     b.ToTable("Sedes");
                 });
@@ -113,6 +96,9 @@ namespace SaludIntegral.App.Persistencia.Migrations
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Date_Status")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int?>("LocationId")
                         .HasColumnType("int");
 
@@ -154,15 +140,6 @@ namespace SaludIntegral.App.Persistencia.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("Patient");
-                });
-
-            modelBuilder.Entity("SaludIntegral.App.Dominio.Locations", b =>
-                {
-                    b.HasOne("SaludIntegral.App.Dominio.Cities", "City")
-                        .WithMany()
-                        .HasForeignKey("CityId");
-
-                    b.Navigation("City");
                 });
 
             modelBuilder.Entity("SaludIntegral.App.Dominio.Person", b =>

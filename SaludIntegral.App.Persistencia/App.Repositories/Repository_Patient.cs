@@ -5,16 +5,16 @@ using SaludIntegral.App.Dominio;
 namespace SaludIntegral.App.Persistencia
 
 {
-    public class RepositoriesPatient :IRepositoriesPatient
+    public class Repository_Patient :IRepository_Patient
     {
         private readonly AppContext _appContext;
 
-        public RepositoriesPatient(AppContext appContext)
+        public Repository_Patient(AppContext appContext)
         {
             _appContext = appContext;
         }
 
-        Patient IRepositoriesPatient.AddPatient(Patient Paciente)
+        Patient IRepository_Patient.AddPatient(Patient Paciente)
         {
             var PacienteAdicionado = _appContext.Pacientes.Add(Paciente);
             
@@ -22,7 +22,7 @@ namespace SaludIntegral.App.Persistencia
             return PacienteAdicionado.Entity;
         }
 
-          void IRepositoriesPatient.DeletePatient(int idPatient)
+          void IRepository_Patient.DeletePatients(int idPatient)
         {
             var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == idPatient);
 
@@ -34,17 +34,17 @@ namespace SaludIntegral.App.Persistencia
 
         }  
 
-        IEnumerable<Patient> IRepositoriesPatient.GetAllPacientes()
+        IEnumerable<Patient> IRepository_Patient.GetAllPatients()
         {
             return _appContext.Pacientes;
         }
 
-        Patient IRepositoriesPatient.GetPatient(int idPatient)
+        Patient IRepository_Patient.GetPatient(int idPatient)
         {
             return _appContext.Pacientes.FirstOrDefault(p => p.Id == idPatient);
         }
 
-        Patient IRepositoriesPatient.UpdatePatient(Patient Paciente)
+        Patient IRepository_Patient.UpdatePatient(Patient Paciente)
         {
             var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault( p => p.Id == Paciente.Id);
 
@@ -64,6 +64,27 @@ namespace SaludIntegral.App.Persistencia
             }
             return pacienteEncontrado;
         }
+
+        Locations IRepository_Patient.AddLocationsInPatient(int idPaciente, int idSede)
+        {
+            var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == idPaciente);
+            if (pacienteEncontrado != null)
+            {
+                var sedeEncontrada = _appContext.Sedes.FirstOrDefault(m => m.Id == idSede);
+                if (sedeEncontrada != null)
+                {
+                    pacienteEncontrado.Location = sedeEncontrada;
+                    _appContext.SaveChanges();
+                }
+                return sedeEncontrada;
+            }
+            return null;
+
+        }
+
+        
+        
+        
 
 
 

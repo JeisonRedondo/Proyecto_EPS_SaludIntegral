@@ -10,5 +10,6 @@ namespace SaludIntegral.App.Dominio
         public Patient Patient { get; set;}
         public DateTime Date { get; set;}
         public string  Note { get; set;}
+        public string Date_Status { get; set;}
      }
 }

@@ -11,7 +11,7 @@ namespace SaludIntegral.App.Persistencia
         public DbSet<Medic> Medicos {get;set;}
         public DbSet<Schedule> Agendas {get;set;}
         public DbSet<Locations> Sedes {get;set;}
-        public DbSet<Cities> Ciudades {get;set;}
+        
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
        {

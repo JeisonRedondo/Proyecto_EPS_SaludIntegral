@@ -1,0 +1,64 @@
+﻿@page
+@model LogginModel
+@{
+    ViewData["Title"] = "Loggin in Account";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>Use this page to Loggin.</p>
+
+<body>
+    <main>
+        <style>
+            .round_table {
+                border-collapse: separate;
+                border-spacing: 10;
+                border: 2px solid grey;
+                border-radius: 15px;
+                -moz-border-radius: 20px;
+                padding: 2px;
+                -webkit-border-radius: 10px;
+            }
+        </style>
+        <table class="round_table" align="Center">
+            <tr>
+                <td style="text-align:center">
+                    <img src="Images4Site/logotipo-salud-integral.png" width="275" alt="Logo_Doctor" height="300"/>
+                    <h5>
+                        <p>¡Wellcome!</p>
+                    </h5>
+                    <h6>
+                        <p>Enter the information requested below to access the system</p>
+                    </h6>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>Email</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Type Your Email--" name="Email"></p></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>Password</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Type Your Password--" name="PSW"></p></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center">
+                    <p>
+                        <button>
+                            <a href="/Account">Access</a> @*Validar el tipo de cuenta acorde con los datos ingresados*@
+                        </button>
+                    </p>
+                    <p>
+                        <a>¿Do you Not already have an account?</a>
+                        <a @*style= "color:blue;"*@ href="/CreateAccount">¡Create newone Here!</a>
+                    </p>
+                </td>
+            </tr>
+            <tr><td><p></p></td></tr>
+        </table>
+    </main>
+</body>

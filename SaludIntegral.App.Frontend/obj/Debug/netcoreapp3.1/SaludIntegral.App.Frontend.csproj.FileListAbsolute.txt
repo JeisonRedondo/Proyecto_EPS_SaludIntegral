@@ -72,4 +72,8 @@ C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.pdb
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.genruntimeconfig.cache
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.csproj.CopyComplete
-C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\CreateAcount.cshtml.g.cs
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\CreateAccount.cshtml.g.cs
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\CreateDoctorAccount.cshtml.g.cs
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\CreatePatientAccount.cshtml.g.cs
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Loggin.cshtml.g.cs
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\DoctorAccount.cshtml.g.cs

@@ -8,11 +8,11 @@ using Microsoft.Extensions.Logging;
 
 namespace SaludIntegral.App.Frontend.Pages
 {
-    public class CreateAcountModel : PageModel
+    public class CreateDoctorAccountModel : PageModel
     {
-        private readonly ILogger<CreateAcountModel> _logger;
+        private readonly ILogger<CreateDoctorAccountModel> _logger;
 
-        public CreateAcountModel(ILogger<CreateAcountModel> logger)
+        public CreateDoctorAccountModel(ILogger<CreateDoctorAccountModel> logger)
         {
             _logger = logger;
         }

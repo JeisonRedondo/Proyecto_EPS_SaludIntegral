@@ -49,7 +49,6 @@ C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\bin\Debug\netcoreapp3.1
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.csprojAssemblyReference.cache
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.AssemblyInfoInputs.cache
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.AssemblyInfo.cs
-C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.csproj.CoreCompileInputs.cache
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.RazorAssemblyInfo.cache
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.RazorAssemblyInfo.cs
@@ -70,10 +69,11 @@ C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\SaludIntegral.App.Frontend.StaticWebAssets.xml
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.dll
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.pdb
-C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.genruntimeconfig.cache
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.csproj.CopyComplete
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\CreateAccount.cshtml.g.cs
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\CreateDoctorAccount.cshtml.g.cs
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\CreatePatientAccount.cshtml.g.cs
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Loggin.cshtml.g.cs
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\DoctorAccount.cshtml.g.cs
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\InitialPanelDoctor.cshtml.g.cs
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LayoutAccount.cshtml.g.cs

@@ -22,8 +22,8 @@ namespace SaludIntegral.App.Consola
            Console.WriteLine("Hello World EF!");
            //AddPatient(); 
            //Find_Patient(3);
-           //Show_Patient();
-           Delete_Patient(3);
+           Show_Patient();
+           //Delete_Patient(3);
            //AddLocationsInPatient();
 
            //AddMedic();

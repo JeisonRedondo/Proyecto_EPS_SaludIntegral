@@ -18,6 +18,6 @@ namespace SaludIntegral.App.Persistencia
      Medic GetMedic(int Id_Medic);
 
      Locations AddLocationsInMedic(int idMedico, int idSede);
-
+        //dotnet new page -n Index1-na SaludIntegral.App.Frontend.Pages -o Pages\Medics\
     }
 }

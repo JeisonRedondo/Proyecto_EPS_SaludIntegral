@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
+  <ItemGroup>
+    <ProjectReference Include="..\SaludIntegral.App.Dominio\SaludIntegral.App.Dominio.csproj" />
+    <ProjectReference Include="..\SaludIntegral.App.Persistencia\SaludIntegral.App.Persistencia.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>

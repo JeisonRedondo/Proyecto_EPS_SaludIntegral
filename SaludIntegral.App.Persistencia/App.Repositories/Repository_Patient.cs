@@ -1,13 +1,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using SaludIntegral.App.Dominio;
+using Microsoft.EntityFrameworkCore;
 
 namespace SaludIntegral.App.Persistencia
 
 {
     public class Repository_Patient :IRepository_Patient
     {
-        private readonly AppContext _appContext;
+        private readonly AppContext _appContext = new AppContext();
 
         public Repository_Patient(AppContext appContext)
         {
@@ -65,7 +66,7 @@ namespace SaludIntegral.App.Persistencia
             return pacienteEncontrado;
         }
 
-        Locations IRepository_Patient.AddLocationsInPatient(int idPaciente, int idSede)
+         Locations IRepository_Patient.AddLocationsInPatient(int idPaciente, int idSede)
         {
             var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == idPaciente);
             if (pacienteEncontrado != null)
@@ -80,7 +81,7 @@ namespace SaludIntegral.App.Persistencia
             }
             return null;
 
-        }
+        } 
 
         
         

@@ -1,3 +1,5 @@
+using System;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using SaludIntegral.App.Dominio;
 

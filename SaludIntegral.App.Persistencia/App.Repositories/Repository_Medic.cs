@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using SaludIntegral.App.Dominio;
 
 
@@ -8,21 +10,8 @@ namespace SaludIntegral.App.Persistencia
 {
     public class Repository_Medic : IRepository_Medic
     {
-        /// <summary>
-        /// Referencia al contexto de Paciente
-        /// </summary>
-        private readonly AppContext _appContext;
-        /// <summary>
-        /// Metodo Constructor Utiiza 
-        /// Inyeccion de dependencias para indicar el contexto a utilizar
-        /// </summary>
-        /// <param name="appContext"></param>//
-        public Repository_Medic(AppContext appContext)
-        {
-            _appContext = appContext;
-        }
 
-
+        private readonly AppContext _appContext= new AppContext();
 
         Medic IRepository_Medic.AddMedic(Medic medic)
         {

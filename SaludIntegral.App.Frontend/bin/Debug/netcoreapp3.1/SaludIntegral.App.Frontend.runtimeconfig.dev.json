@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\draku\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\draku\\.nuget\\packages"
+      "/home/jose/.dotnet/store/|arch|/|tfm|",
+      "/home/jose/.nuget/packages"
     ]
   }
 }

@@ -1,0 +1,102 @@
+@page
+@model CreateDoctorAccountModel
+@{
+    ViewData["Title"] = "Create Doctor Account page";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to enter data Doctor´s Account.</p>
+<button>
+    <a href="/CreateAccount">Go Back</a>
+</button>
+
+<body>
+    <main>
+        <style>
+            .round_table {
+                border-collapse: separate;
+                border-spacing: 10;
+                border: 2px solid grey;
+                border-radius: 15px;
+                -moz-border-radius: 20px;
+                padding: 2px;
+                -webkit-border-radius: 10px;
+            }
+        </style>
+        <table class="round_table" align="Center">
+            <tr>
+                <td colspan="3" style="text-align:center">
+                    <img src="Images4Site/doctor.png" width="150" alt="Logo_Doctor" height="150"/>
+                    <h5>
+                        <p><p>¡Wellcome!</p></p>
+                    </h5>
+                    <p><p>Fill out the form to create an account in the system </p></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>Complete Name</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Type Your Complete Name--" name="Complete_Name"></p></p>
+                </td>
+                <td>
+                </td>
+                <td style="text-align:left">
+                    <p><h6>ID Number</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Type Your ID Number--" name="ID_Number"></p></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>Gender</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Select Your Gender--" name="Gender"></p></p>
+                </td>
+                <td>  
+                </td>
+                <td style="text-align:left">
+                    <p><h6>Movíl Number</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Type Your Movíl Number--" name="Movíl_Number"></p></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>Email</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Type Your Email--" name="Email"></p></p>
+                </td>
+                <td>  
+                </td>
+                <td style="text-align:left">
+                    <p><h6>Age</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Select Your Date of Birth--" name="DOB"></p></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>Medic Number Registration</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Type Your Medic Number Registration--" name="MNR"></p></p>
+                </td>
+                <td>  
+                </td>
+                <td style="text-align:left">
+                    <p><h6>Medic Specialization</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Type Your Medic Specialization--" name="Medic_Specialization"></p></p>
+                </td>
+            </tr>
+            <tr><td><p></p></td></tr>
+            <tr>
+                <td colspan="3" style="text-align:center">
+                    <p>
+                        <button>
+                            <a>Create Account</a>
+                        </button>
+                    </p>
+                    <p>
+                        <a>¿Do you already have an account?</a>
+                        <a @*style= "color:blue;"*@ href="/Loggin">¡Loggin Here!</a>
+                    </p>
+                </td>
+            </tr>
+            <tr><td><p></p></td></tr>
+        </table>
+    </main>
+</body>

@@ -8,7 +8,7 @@ namespace SaludIntegral.App.Persistencia
 {
     public interface IRepository_Patient
     {
-        IEnumerable<Patient> GetAllPatients();
+        IEnumerable<Patient> GetAllPatients();        
 
         Patient AddPatient(Patient Paciente);
 

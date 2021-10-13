@@ -7267,19 +7267,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\draku\\.nuget\\packages\\": {}
+    "/home/jose/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj",
+      "projectUniqueName": "/Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Persistencia/SaludIntegral.App.Persistencia.csproj",
       "projectName": "SaludIntegral.App.Persistencia",
-      "projectPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\draku\\.nuget\\packages\\",
-      "outputPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\obj\\",
+      "projectPath": "/Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Persistencia/SaludIntegral.App.Persistencia.csproj",
+      "packagesPath": "/home/jose/.nuget/packages/",
+      "outputPath": "/Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Persistencia/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\draku\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/jose/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7290,8 +7290,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj": {
-              "projectPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj"
+            "/Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Dominio/SaludIntegral.App.Dominio.csproj": {
+              "projectPath": "/Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Dominio/SaludIntegral.App.Dominio.csproj"
             }
           }
         }
@@ -7341,7 +7341,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.414/RuntimeIdentifierGraph.json"
       }
     }
   }

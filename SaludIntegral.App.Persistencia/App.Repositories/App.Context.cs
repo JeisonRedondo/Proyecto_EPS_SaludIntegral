@@ -18,8 +18,11 @@ namespace SaludIntegral.App.Persistencia
            if (!optionsBuilder.IsConfigured)
            {
                optionsBuilder
-               .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = EPS.Saludintegral");
+               //.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = EPS.Saludintegral");
                //.UseSqlServer("Initial Catalog=SaludIntegral; Data Source=JeisonDB; Integrated Security=true");
+
+               // conexion linux jose
+               .UseSqlServer("Data Source =.; Initial Catalog = prelinux ;uid=SA ;pwd=123456aZ");
            }
        }
 

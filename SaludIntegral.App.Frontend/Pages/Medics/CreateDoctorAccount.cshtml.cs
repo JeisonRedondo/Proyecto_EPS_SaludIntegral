@@ -9,10 +9,16 @@ using SaludIntegral.App.Dominio;
 using SaludIntegral.App.Persistencia;
 
 
-namespace SaludIntegral.App.Frontend.Pages
+namespace SaludIntegral.App.Frontend.Pages.Medics
 {
     public class CreateDoctorAccountModel : PageModel
     {
+
+    // presenta error al crear la entidad   
+    /*private readonly ILogger<CreatePatientAccountModel> _logger;
+    public CreatePatientAccountModel(ILogger<CreatePatientAccountModel> logger)
+    {        _logger = logger;
+    }*/
       
         private readonly IRepository_Medic _repoMedic;
         public Medic medic {get;   set;}
@@ -24,7 +30,6 @@ namespace SaludIntegral.App.Frontend.Pages
         public void OnGet()
         {
             medic = new Medic();            
-
         }
 
          public IActionResult OnPost(Medic medic)
@@ -32,13 +37,11 @@ namespace SaludIntegral.App.Frontend.Pages
             if (ModelState.IsValid)
             {
                 _repoMedic.AddMedic(medic);
-                return RedirectToPage("Index");
+                return RedirectToPage("IndexM");
             } else
                 {
                     return Page();
                 }
-
-
 
         }
 

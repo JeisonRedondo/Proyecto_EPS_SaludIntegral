@@ -1,0 +1,41 @@
+﻿@page
+@using SaludIntegral.App.Dominio
+@model SaludIntegral.App.Frontend.Pages.Medics.CreateDoctorAccountModel
+@{
+}
+<h1>Nuevo medico</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="medic.Names"></label>
+        <input asp-for="medic.Names" class="form-control">
+        <span asp-validation-for="medic.Names" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="medic.Identification"></label>
+        <input asp-for="medic.Identification" class="form-control">
+        <span asp-validation-for="medic.Identification" class="text-danger"></span>
+    </div>
+    <div class="form-group">        
+        <label asp-for="medic.Gender"></label>
+        <input asp-for="medic.Gender" class="form-control">
+    </div>
+    <div class="form-group">        
+        <label asp-for="medic.Phone_number"></label>
+        <input asp-for="medic.Phone_number" class="form-control">
+    </div>
+     <div class="form-group">        
+        <label asp-for="medic.Email"></label>
+        <input asp-for="medic.Email" class="form-control">
+    </div>
+    <div class="form-group">        
+        <label asp-for="medic.DateOfBirth"></label>
+        <input asp-for="medic.DateOfBirth" class="form-control">
+    </div>    
+    <div class="form-group">        
+        <label asp-for="medic.Specialization"></label>
+        <input asp-for="medic.Specialization" class="form-control">
+    </div>
+   
+    <button type="submit" class="btn btn-primary">Crear Medico</button>
+</form>
+<a class="btn btn-secondary" asp-page="/Index">Volver</a>

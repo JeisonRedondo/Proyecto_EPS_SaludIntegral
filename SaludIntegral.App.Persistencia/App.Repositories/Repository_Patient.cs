@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using SaludIntegral.App.Dominio;
 
 namespace SaludIntegral.App.Persistencia
@@ -7,12 +9,15 @@ namespace SaludIntegral.App.Persistencia
 {
     public class Repository_Patient :IRepository_Patient
     {
-        private readonly AppContext _appContext;
+        /*private readonly AppContext _appContext;
 
         public Repository_Patient(AppContext appContext)
         {
             _appContext = appContext;
-        }
+
+        }*/
+
+        private readonly AppContext _appContext= new AppContext();
 
         Patient IRepository_Patient.AddPatient(Patient Paciente)
         {

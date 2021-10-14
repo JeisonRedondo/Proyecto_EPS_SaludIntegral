@@ -25,7 +25,9 @@ namespace SaludIntegral.App.Frontend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
-            services.AddSingleton<IRepository_Medic,Repository_Medic >();
+            services.AddSingleton<IRepository_Medic,Repository_Medic>();
+            services.AddSingleton<IRepository_Patient,Repository_Patient>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

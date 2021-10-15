@@ -3,13 +3,17 @@
 @model SaludIntegral.App.Frontend.Pages.Medics.editMedicModel
 @{
 }
-pendiente a revisar
+
 
 <h1>Editar mi cuenta  medico</h1>
 <form method="post">
     <div class="form-group">
         <label asp-for="medic.Id".Id"></label>
         <input asp-for="medic.Id" class="form-control" readonly>
+    </div>
+        <div class="form-group">
+        <label asp-for="medic.Identification"></label>
+        <input asp-for="medic.Identification" class="form-control" readonly>
     </div>
     <div class="form-group">
         <label asp-for="medic.Names"></label>
@@ -35,6 +39,14 @@ pendiente a revisar
     <div class="form-group">
         <label asp-for="medic.Specialization"></label>
         <input asp-for="medic.Specialization" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="medic.Password"></label>
+        <input asp-for="medic.Password" class="form-control">
+    </div>
+        <div class="form-group">
+        <label asp-for="medic.Location"></label>
+        <input asp-for="medic.Location" class="form-control">
     </div>
     <button type="submit" class="btn btn-primary">Editar mi cuenta medico</button>
 </form>

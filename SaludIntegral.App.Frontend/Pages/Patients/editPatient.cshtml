@@ -1,0 +1,52 @@
+﻿@page
+@using SaludIntegral.App.Dominio
+@model SaludIntegral.App.Frontend.Pages.Patients.editPatientModel
+@{
+}
+
+<h1>Editar mi cuenta  paciente</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="patient.Id".Id"></label>
+        <input asp-for="patient.Id" class="form-control" readonly>
+    </div>
+        <div class="form-group">
+        <label asp-for="patient.Identification"></label>
+        <input asp-for="patient.Identification" class="form-control" readonly>
+    </div>
+    <div class="form-group">
+        <label asp-for="patient.Names"></label>
+        <input asp-for="patient.Names" class="form-control">
+        <span asp-validation-for="patient.Names" class="text-danger"></span>
+    </div>
+        <div class="form-group">
+        <label asp-for="patient.DateOfBirth"></label>
+        <input asp-for="patient.DateOfBirth" class="form-control">
+    </div>
+        <div class="form-group">
+        <label asp-for="patient.Gender"></label>
+        <input asp-for="patient.Gender" class="form-control">
+    </div>
+        <div class="form-group">
+        <label asp-for="patient.Phone_number"></label>
+        <input asp-for="patient.Phone_number" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="patient.Email"></label>
+        <input asp-for="patient.Email" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="patient.EPS"></label>
+        <input asp-for="patient.EPS" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="patient.Password"></label>
+        <input asp-for="patient.Password" class="form-control">
+    </div>
+        <div class="form-group">
+        <label asp-for="patient.Location"></label>
+        <input asp-for="patient.Location" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Editar mi cuenta paciente</button>
+</form>
+<a class="btn btn-secondary" asp-page="./Index1">Volver</a>

@@ -1,6 +1,6 @@
 ﻿@page
+@model SaludIntegral.App.Frontend.Pages.Patients.seeMyAccountPModel
 @using SaludIntegral.App.Dominio
-@model SaludIntegral.App.Frontend.Pages.Medics.seeMyAccountMModel
 @{
 }
 
@@ -21,31 +21,28 @@
             <th scope="col">Date Of Birth</th>
             <th scope="col">Gender</th>
             <th scope="col">Phone number</th>
+            <th scope="col">EPS</th>
             <th scope="col">Email</th>            
             <th scope="col">Password</th>
-            <th scope="col">Specialization</th>
-            <th scope="col">Location</th>
+            <th scope="col">Location</th>            
             <th colspan="2" scope="col">Acciones</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var doctor in Model.medicos)
+        @foreach (var Patient in Model.pacientes)
         {
             <tr>
-                <td>@doctor.Identification</td>
-                <td>@doctor.Names</td>
-                <td>@doctor.DateOfBirth</td>
-                <td>@doctor.Gender</td>
-                <td>@doctor.Phone_number</td>
-                <td>@doctor.Email</td>
-                <td>@doctor.Password</td>
-                <td>@doctor.Specialization</td>
-                <td>@doctor.Location</td>                             
-                <td><a class="btn btn-secondary" asp-page="./editMedic" asp-route-id="@doctor.Id">Editar</a></td>
+                <td>@Patient.Identification</td>
+                <td>@Patient.Names</td>
+                <td>@Patient.DateOfBirth</td>
+                <td>@Patient.Gender</td>
+                <td>@Patient.Phone_number</td>
+                <td>@Patient.EPS</td>
+                <td>@Patient.Email</td>
+                <td>@Patient.Password</td>
+                <td>@Patient.Location</td>                             
+                <td><a class="btn btn-secondary" asp-page="./editPatient" asp-route-id="@Patient.Id">Editar</a></td>
             </tr>
         }
     </tbody>
 </table>
-
-
-

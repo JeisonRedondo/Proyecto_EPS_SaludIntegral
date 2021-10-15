@@ -7,37 +7,30 @@ using SaludIntegral.App.Dominio;
 namespace SaludIntegral.App.Persistencia
 
 {
-    public class Repository_Patient :IRepository_Patient
+    public class Repository_Patient : IRepository_Patient
     {
-        /*private readonly AppContext _appContext;
 
-        public Repository_Patient(AppContext appContext)
-        {
-            _appContext = appContext;
-
-        }*/
-
-        private readonly AppContext _appContext= new AppContext();
+        private readonly AppContext _appContext = new AppContext();
 
         Patient IRepository_Patient.AddPatient(Patient Paciente)
         {
             var PacienteAdicionado = _appContext.Pacientes.Add(Paciente);
-            
+
             _appContext.SaveChanges();
             return PacienteAdicionado.Entity;
         }
 
-          void IRepository_Patient.DeletePatients(int idPatient)
+        void IRepository_Patient.DeletePatients(int idPatient)
         {
             var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == idPatient);
 
             if (pacienteEncontrado == null)
-            return;
+                return;
 
             _appContext.Pacientes.Remove(pacienteEncontrado);
             _appContext.SaveChanges();
 
-        }  
+        }
 
         IEnumerable<Patient> IRepository_Patient.GetAllPatients()
         {
@@ -51,7 +44,7 @@ namespace SaludIntegral.App.Persistencia
 
         Patient IRepository_Patient.UpdatePatient(Patient Paciente)
         {
-            var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault( p => p.Id == Paciente.Id);
+            var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == Paciente.Id);
 
             if (pacienteEncontrado != null)
             {
@@ -64,11 +57,19 @@ namespace SaludIntegral.App.Persistencia
                 pacienteEncontrado.Location = Paciente.Location;
                 pacienteEncontrado.EPS = Paciente.EPS;
                 pacienteEncontrado.Password = Paciente.Password;
-                
+
                 _appContext.SaveChanges();
             }
             return pacienteEncontrado;
         }
+        IEnumerable<Patient> IRepository_Patient.SearchPatiens(string name)
+            {
+                return _appContext.Pacientes
+                .Where(p => p.Identification.Contains(name));
+            }
+
+
+
 
         Locations IRepository_Patient.AddLocationsInPatient(int idPaciente, int idSede)
         {
@@ -87,9 +88,9 @@ namespace SaludIntegral.App.Persistencia
 
         }
 
-        
-        
-        
+
+
+
 
 
 

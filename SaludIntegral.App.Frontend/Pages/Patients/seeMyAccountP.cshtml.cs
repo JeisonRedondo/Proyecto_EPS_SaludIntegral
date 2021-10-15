@@ -7,31 +7,31 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using SaludIntegral.App.Dominio;
 using SaludIntegral.App.Persistencia;
 
-namespace SaludIntegral.App.Frontend.Pages.Medics
+namespace SaludIntegral.App.Frontend.Pages.Patients
 {
-    public class seeMyAccountMModel : PageModel
+    public class seeMyAccountPModel : PageModel
     {
-        private readonly IRepository_Medic _repoMedic;
-        public IEnumerable<Medic> medicos { get; set; }
+        private readonly IRepository_Patient _repoPatient;
+        public IEnumerable<Patient> pacientes { get; set; }
         public int gActual { get; set; }
         public string bActual { get; set; }
-        public seeMyAccountMModel(IRepository_Medic repoMedic)
+        public seeMyAccountPModel(IRepository_Patient repoPatient)
         {
-            _repoMedic = repoMedic;
+            _repoPatient = repoPatient;
         }
         public void OnGet(int? g, string b)
         {
             if (String.IsNullOrEmpty(b))
             {
                 bActual = null;
-                medicos = _repoMedic.SearchMedics(bActual);
+                pacientes = _repoPatient.SearchPatiens(bActual);
 
-                // medicos = _repoMedic.GetAllMedics();
+                // pacientes = _repoPatient.GetAllPatients();
             }
             else
             {
                 bActual = b;
-                medicos = _repoMedic.SearchMedics(b);
+                pacientes = _repoPatient.SearchPatiens(b);
             }
         }
     }

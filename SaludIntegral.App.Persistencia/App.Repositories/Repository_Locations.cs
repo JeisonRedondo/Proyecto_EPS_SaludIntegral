@@ -1,18 +1,16 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using SaludIntegral.App.Dominio;
+
 
 namespace SaludIntegral.App.Persistencia
 {
     public class Repository_Locations :IRepository_Locations
     {
-        private readonly AppContext _appContext;
-
-        public Repository_Locations(AppContext appContext)
-        {
-            _appContext = appContext;
-        }
-
+        private readonly AppContext _appContext= new AppContext();
+        
         Locations IRepository_Locations.AddLocations(Locations Sede)
         {
             var SedeAdicionada = _appContext.Sedes.Add(Sede);

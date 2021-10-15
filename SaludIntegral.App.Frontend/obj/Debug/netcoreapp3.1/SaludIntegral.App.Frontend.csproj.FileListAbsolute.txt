@@ -74,3 +74,4 @@ C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LayoutLoginSignup.cshtml.g.cs
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\SignUp.cshtml.g.cs
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\DoctorForm.cshtml.g.cs

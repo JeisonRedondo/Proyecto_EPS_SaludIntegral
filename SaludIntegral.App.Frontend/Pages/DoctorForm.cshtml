@@ -1,0 +1,58 @@
+﻿@page
+@model SaludIntegral.App.Frontend.Pages.DoctorFormModel
+@{
+    Layout = "./Shared/_LayoutLoginSignup.cshtml";
+}
+<div class="container-fluid d-block border shadow p-3 mb-5 bg-white rounded text-center" style="height: 510px; width: 1020px">
+    <h2>Welcome!</h2>
+    <p>Fill the form below to create a new account in the system.</p>
+    <div class="row">
+        <div class="col-sm">
+            <label class="form-label" for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Your name">
+        </div>
+        <div class="col-sm">
+            <label class="form-label" for="age">Age</label>
+            <input type="date" name="age" id="age" placeholder="What is your birth date?">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm">
+            <label class="form-label" for="gender">Gender</label>
+            <select class="form-select" id="gender" name="gender" aria-label="Choose your gender">
+                <option selected>Choose your gender</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                <option value="3">Bisexual</option>
+                <option value="4">Intersex</option>
+                <option value="5">Pansexual</option>
+                <option value="6">Pansexual</option>
+            </select>
+        </div>
+        <div class="col-sm">
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phobe" placeholder="Your phone number">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="mail@domain.com">
+        </div>
+        <div class="col-sm">
+            <label for="id">ID</label>
+            <input type="number" name="id" id="id" placeholder="Your ID number">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm">
+            <label for="medicalRecord">Medical record</label>
+            <input type="number" name="medicalRecord" id="medicalRecord" placeholder="Your medical record">
+        </div>
+        <div class="col-sm">
+            <label for="medicalSpecialty">Medical specialty</label>
+            <input type="text" name="medicalSpecialty" id="medicalSpecialty" placeholder="Your medical specialty">
+        </div>
+    </div>
+    <button></button>
+</div>

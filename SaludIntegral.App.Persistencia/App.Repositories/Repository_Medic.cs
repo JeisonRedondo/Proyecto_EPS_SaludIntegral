@@ -64,6 +64,12 @@ namespace SaludIntegral.App.Persistencia
             return Found_Medic;
         }
 
+       IEnumerable<Medic> IRepository_Medic.SearchMedics(string name)
+        {
+            return _appContext.Medicos
+            .Where(p => p.Identification.Contains(name));
+        }
+
         Locations IRepository_Medic.AddLocationsInMedic(int idMedico, int idSede)
         {
             var medicoEncontrado = _appContext.Medicos.FirstOrDefault(p => p.Id == idMedico);

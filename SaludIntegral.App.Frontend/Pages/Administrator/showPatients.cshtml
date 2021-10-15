@@ -1,0 +1,18 @@
+﻿@page
+@using SaludIntegral.App.Dominio
+@model SaludIntegral.App.Frontend.Pages.showPatientsModel
+@{
+}
+<h1>Listado de pacientes</h1>
+<table class="table table-striped">
+    @foreach(var paciente in Model.patients)
+    {
+        <tr>
+            <td>@paciente.Names</td>
+            <td>@paciente.Identification</td>
+            <td>@paciente.Gender</td>
+            <td>@paciente.EPS</td>
+
+        </tr>
+    }
+</table>

@@ -1,0 +1,51 @@
+﻿@page
+@using SaludIntegral.App.Dominio
+@model SaludIntegral.App.Frontend.Pages.Medics.seeMyAccountMModel
+@{
+}
+
+<form method="get">
+    <div class="form-group">
+        <label for="b">Buscar por Identification</label>
+        <input name="b" id="b" asp-for="@Model.bActual" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Buscar</button>
+</form>
+
+<h1>Mi cuenta</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Identification</th>
+            <th scope="col">Names</th>
+            <th scope="col">Date Of Birth</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Phone number</th>
+            <th scope="col">Email</th>            
+            <th scope="col">Password</th>
+            <th scope="col">Location</th>
+            <th colspan="2" scope="col">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var doctor in Model.medicos)
+        {
+            <tr>
+                <td>@doctor.Identification</td>
+                <td>@doctor.Names</td>
+                <td>@doctor.DateOfBirth</td>
+                <td>@doctor.Gender</td>
+                <td>@doctor.Phone_number</td>
+                <td>@doctor.Email</td>
+                <td>@doctor.Password</td>
+                <td>@doctor.Location</td>                             
+                <td><a class="btn btn-secondary" asp-page="./editMedic" asp-route-id="doctor.Id">Editar</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<a class="btn btn-secondary" asp-page="/Medics/editMedic">Editar mi cuenta </a>
+
+

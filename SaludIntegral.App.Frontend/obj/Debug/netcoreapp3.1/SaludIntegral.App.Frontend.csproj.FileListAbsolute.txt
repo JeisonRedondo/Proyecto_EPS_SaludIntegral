@@ -132,3 +132,6 @@ C:/EPS_DJ/SaludIntegral.App/SaludIntegral.App.Frontend/obj/Debug/netcoreapp3.1/S
 /Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Administrator/showMedics.cshtml.g.cs
 /Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Patients/CreatePatientAccount.cshtml.g.cs
 /Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Patients/IndexP.cshtml.g.cs
+/Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Administrator/showPatients.cshtml.g.cs
+/Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Medics/editMedic.cshtml.g.cs
+/Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Frontend/obj/Debug/netcoreapp3.1/Razor/Pages/Medics/seeMyAccountM.cshtml.g.cs

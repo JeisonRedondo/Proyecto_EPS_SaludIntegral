@@ -34,3 +34,9 @@ C:/EPS_DJ/SaludIntegral.App/SaludIntegral.App.Persistencia/obj/Debug/netstandard
 /Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Persistencia/obj/Debug/netstandard2.1/SaludIntegral.App.Persistencia.csproj.CopyComplete
 /Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Persistencia/obj/Debug/netstandard2.1/SaludIntegral.App.Persistencia.dll
 /Hospitalizacion/ipsCiclo3/Proyecto_EPS_SaludIntegral/SaludIntegral.App.Persistencia/obj/Debug/netstandard2.1/SaludIntegral.App.Persistencia.pdb
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.AssemblyInfoInputs.cache
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.AssemblyInfo.cs
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.dll
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.pdb

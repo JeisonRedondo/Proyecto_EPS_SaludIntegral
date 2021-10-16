@@ -1,0 +1,26 @@
+﻿@page
+@using SaludIntegral.App.Dominio
+@model SaludIntegral.App.Frontend.Pages.scheduleAppointmentModel
+@{
+}
+
+<h1>Agendar cita</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="patient.Id".Id"></label>
+        <input asp-for="patient.Id" class="form-control" readonly>
+    </div>
+    <div class="form-group">
+        <label asp-for="patient.Identification"></label>
+        <input asp-for="patient.Identification" class="form-control" readonly>
+    </div>
+    <div class="form-group">
+        <label asp-for="patient.Names"></label>
+        <input asp-for="patient.Names" class="form-control"readonly >        
+    </div>
+       
+    
+   
+    <button type="submit" class="btn btn-primary">Agendar cita</button>
+</form>
+<a class="btn btn-secondary" asp-page="./Index1">Volver</a>

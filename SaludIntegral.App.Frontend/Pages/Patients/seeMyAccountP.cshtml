@@ -42,6 +42,7 @@
                 <td>@Patient.Password</td>
                 <td>@Patient.Location</td>                             
                 <td><a class="btn btn-secondary" asp-page="./editPatient" asp-route-id="@Patient.Id">Editar</a></td>
+                <td><a class="btn btn-secondary" asp-page="./scheduleAppointment" asp-route-id="@Patient.Id">Agendar cita</a></td>
             </tr>
         }
     </tbody>

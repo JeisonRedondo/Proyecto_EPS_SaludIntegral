@@ -1,9 +1,9 @@
+using System;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using SaludIntegral.App.Dominio;
 
 namespace SaludIntegral.App.Persistencia
-
-
 {
     public interface IRepository_Schedule
     {

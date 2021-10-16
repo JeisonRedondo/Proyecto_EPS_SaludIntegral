@@ -28,6 +28,7 @@ namespace SaludIntegral.App.Frontend
             services.AddSingleton<IRepository_Medic,Repository_Medic>();
             services.AddSingleton<IRepository_Patient,Repository_Patient>();
             services.AddSingleton<IRepository_Locations,Repository_Locations>();
+            services.AddSingleton<IRepository_Schedule,Repository_Schedule>();
 
 
         }

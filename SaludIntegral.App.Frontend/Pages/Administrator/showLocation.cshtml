@@ -1,4 +1,16 @@
 ﻿@page
+@using SaludIntegral.App.Dominio
 @model SaludIntegral.App.Frontend.Pages.showLocationModel
 @{
 }
+<h1>Listado de Sedes</h1>
+<table class="table table-striped">
+    @foreach(var sede in Model.sedes)
+    {
+        <tr>
+            <td>@sede.Name_Location</td>
+            <td>@sede.Address</td>
+            <td>@sede.City</td>
+        </tr>
+    }
+</table>

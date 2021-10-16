@@ -10,23 +10,20 @@ namespace SaludIntegral.App.Persistencia
         /// <summary>
         /// Referencia al contexto de Agenda
         /// </summary>
-        private readonly AppContext _appContext;
+        //private readonly AppContext _appContext;
         /// <summary>
         /// Metodo Constructor Utiiza 
         /// Inyeccion de dependencias para indicar el contexto a utilizar
         /// </summary>
-        /// <param name="appContext"></param>//
+        // <param name="appContext"></param>//
 
-        public Repository_Schedule(AppContext appContext)
-        {
-            _appContext = appContext;
-        }
-
+        private readonly AppContext _appContext = new AppContext();
+        
         Schedule IRepository_Schedule.AddSchedule(Schedule date)
         {
             var Added_Date = _appContext.Agendas.Add(date);
             _appContext.SaveChanges();
-            return Added_Date.Entity;            
+            return Added_Date.Entity;
 
         }
 
@@ -42,8 +39,8 @@ namespace SaludIntegral.App.Persistencia
 
         Schedule IRepository_Schedule.UpdateDate(Schedule date)
         {
-          var Found_Date  = _appContext.Agendas.FirstOrDefault(m => m.Id == date.Id); 
-          if (Found_Date != null)
+            var Found_Date = _appContext.Agendas.FirstOrDefault(m => m.Id == date.Id);
+            if (Found_Date != null)
             {
                 Found_Date.Location = date.Location;
                 Found_Date.Medic = date.Medic;
@@ -55,14 +52,14 @@ namespace SaludIntegral.App.Persistencia
                 _appContext.SaveChanges();
 
             }
-            return Found_Date; 
+            return Found_Date;
         }
 
-         void IRepository_Schedule.DeleteSchedule(int Id_Date)
+        void IRepository_Schedule.DeleteSchedule(int Id_Date)
         {
             var Found_Schedule = _appContext.Agendas.FirstOrDefault(m => m.Id == Id_Date);
             if (Found_Schedule == null)
-            return;
+                return;
             _appContext.Agendas.Remove(Found_Schedule);
             _appContext.SaveChanges();
         }

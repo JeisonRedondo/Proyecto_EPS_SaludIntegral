@@ -10,10 +10,10 @@ namespace SaludIntegral.App.Consola
 /// <summary>
 /// Punto de Localizacion de Repositorios.
 /// </summary>
-        private static IRepository_Locations _repoLocations = new Repository_Locations(new Persistencia.AppContext());
-        private static IRepository_Schedule _repoSchedule = new Repository_Schedule(new Persistencia.AppContext());
-        private static IRepository_Patient _repoPatient = new Repository_Patient(new Persistencia.AppContext());
-        private static IRepository_Medic _repoMedic = new Repository_Medic(new Persistencia.AppContext());
+        private static IRepository_Locations _repoLocations = new Repository_Locations();
+        private static IRepository_Schedule _repoSchedule = new Repository_Schedule();
+        private static IRepository_Patient _repoPatient = new Repository_Patient();
+        private static IRepository_Medic _repoMedic = new Repository_Medic();
         static void Main(string[] args)
         {
         ///<return>

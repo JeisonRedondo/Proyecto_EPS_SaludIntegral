@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Salud Integral</title>
+    <title>@ViewData["Title"]Panel Doctor</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -25,7 +25,7 @@
                         <li class="nav-item">
                             <div class="profile-space">
                                 <span>¡Bienvenido, <strong>doctor!</strong></span>
-                                <img src="Images4Site/doctor-image-perfil.jpg" width="48px" height="48px" alt="Profile picture" title="Profile picture">
+                                <img src="Images4Site/doctor-image-perfil.jpg" width="96px" height="48px" alt="Profile picture" title="Profile picture">
                             </div>
                         </li>
                         <li class="nav-item" id="logout-text">
@@ -43,13 +43,13 @@
         <!-- Sidebar -->
         <nav id="sidebar">
             <div class="sidebar-header" id="sidebar-header">
-                <img src="Images4Site/logotipo-salud-integral.png" width="78" alt="Logo_Salud_Integral" height="85"/>
+                <img src="Images4Site/logotipo-salud-integral.png" width="92" alt="Logo_Salud_Integral" height="100"/>
             </div>
 
             <ul class="list-unstyled components" id="menu-sidebar">
                 <li>
                     <div class="container-component-menu">
-                        <img src="Images4Site/cita-icono.png" width="32px" height="32px" alt="Confirm appointment" title="Confirm appointment">
+                        @*<img src="Images4Site/cita-icono.png" width="32px" height="32px" alt="Confirm appointment" title="Confirm appointment">*@
                         <a asp-page="/Index">Confirm appointment</a>
                     </div>
                 </li>
@@ -69,6 +69,8 @@
                         <i class="fas fa-align-left"></i>
                         <span>MENU</span>
                     </button>
+                    <p><span>PRUEBA</span></p>
+                    <p><img src="Images4Site/cita-icono.png" width="32px" height="32px" alt="Confirm appointment" title="Confirm appointment"></p>
 
                 </div>
             </nav>

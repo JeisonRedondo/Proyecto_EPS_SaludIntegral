@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.FrontEnd\\SaludIntegral.App.Frontend.csproj": {}
+    "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Frontend\\SaludIntegral.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.FrontEnd\\SaludIntegral.App.Frontend.csproj": {
+    "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Frontend\\SaludIntegral.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.FrontEnd\\SaludIntegral.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Frontend\\SaludIntegral.App.Frontend.csproj",
         "projectName": "SaludIntegral.App.Frontend",
-        "projectPath": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.FrontEnd\\SaludIntegral.App.Frontend.csproj",
+        "projectPath": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Frontend\\SaludIntegral.App.Frontend.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.FrontEnd\\obj\\",
+        "outputPath": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

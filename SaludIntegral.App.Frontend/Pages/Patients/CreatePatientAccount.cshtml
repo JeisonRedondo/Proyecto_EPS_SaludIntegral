@@ -2,7 +2,123 @@
 @using SaludIntegral.App.Dominio
 @model SaludIntegral.App.Frontend.Pages.CreatePatientAccountModel
 @{
+    ViewData["Title"] = "Create Patient Account page";
 }
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to enter data Patient´s Account.</p>
+<button>
+    <a href="/Index">Go Back</a>
+</button>
+<form method="post">
+<body>
+    <main>
+        <style>
+            .round_table {
+                border-collapse: separate;
+                border-spacing: 10;
+                border: 2px solid grey;
+                border-radius: 15px;
+                -moz-border-radius: 20px;
+                padding: 2px;
+                -webkit-border-radius: 10px;
+            }
+        </style>
+        
+        <table class="round_table" align="Center">
+            
+            <tr>
+                <td colspan="3" style="text-align:center">
+                    <img src="/Resource/paciente.png" width="150" alt="Logo_Paciente" height="150"/>
+                    <h5>
+                        <p><p>¡Wellcome!</p></p>
+                    </h5>
+                    <p><p>Fill out the form to create an account in the system </p></p>
+                </td>
+            </tr>
+            <tr>
+                
+                <td style="text-align:left">
+                    <p><h6>Complete Name</h6>
+                    <p><input asp-for="Paciente.Names" class="form-control" type="text" size="30" maxlength="30" value="--Type Your Complete Name--" name="Names"></p></p>
+                    <!--<input asp-for="Paciente.Names" class="form-control">-->
+                    <span asp-validation-for="Paciente.Names" class="text-danger"></span>
+                </td>
+                <td>
+                </td>
+                <td style="text-align:left">
+                    <p><h6>ID Number</h6>
+                    <p><input asp-for="Paciente.Identification" class="form-control" type="text" size="30" maxlength="30" value="--Type Your ID Number--" name="Identification"></p></p>
+                    <!--<input asp-for="Paciente.Identification" class="form-control">-->
+                    <span asp-validation-for="Paciente.Identification" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>Gender</h6>
+                    <p><input asp-for="Paciente.Gender" class="form-control" type="text" size="30" maxlength="30" value="--Select Your Gender--" name="Gender"></p></p>
+                    <!--<input asp-for="Paciente.Gender" class="form-control">-->
+                    <span asp-validation-for="Paciente.Gender" class="text-danger"></span>
+                </td>
+                <td>  
+                </td>
+                <td style="text-align:left">
+                    <p><h6>Movíl Number</h6>
+                    <p><input asp-for="Paciente.Phone_number" class="form-control type="text" size="30" maxlength="30" value="--Type Your Movíl Number--" name="Phone_number"></p></p>
+                    <!--<input asp-for="Paciente.Phone_number" class="form-control">-->
+                    <span asp-validation-for="Paciente.Phone_number" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>Email</h6>
+                    <p><input asp-for="Paciente.Email" class="form-control type="text" size="30" maxlength="30" value="--Type Your Email--" name="Email"></p></p>
+                    <!--<input asp-for="Paciente.Email" class="form-control">-->
+                    <span asp-validation-for="Paciente.Email" class="text-danger"></span>
+                </td>
+                <td>  
+                </td>
+                <td style="text-align:left">
+                    <p><h6>Date of Birth</h6>
+                    <p><input asp-for="Paciente.DateOfBirth" class="form-control type="text" size="30" maxlength="30" value="--Select Your Date of Birth--" name="DateOfBirth"></p></p>
+                    <!--<input asp-for="Paciente.DateOfBirth" class="form-control">-->
+                    <span asp-validation-for="Paciente.DateOfBirth" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>EPS</h6>
+                    <p><input asp-for="Paciente.EPS" class="form-control type="text" size="30" maxlength="30" value="--Select Your EPS--" name="EPS"></p></p>
+                    <!--<input asp-for="Paciente.EPS" class="form-control">-->
+                    <span asp-validation-for="Paciente.EPS" class="text-danger"></span>
+                </td>               
+                </td>
+            </tr>
+            <tr><td><p></p></td></tr>
+            <tr>
+                <td colspan="3" style="text-align:center">
+                    <p>
+                        <button type="submit" class="btn btn-primary">
+                            <a>Create Account</a>
+                        </button>
+                    </p>
+                    
+                    <p>
+                        <a>¿Do you already have an account?</a>
+                        <a @*style= "color:blue;"*@ href="/Loggin">¡Loggin Here!</a>
+                    </p>
+                </td>
+            </tr>
+            <tr><td><p></p></td></tr>
+           
+        </table>
+       
+    </main>
+</body>
+ </form>
+<!--Antiguo Codigo-->
+<!--
 <h1>Nuevo Paciente</h1>
 <form method="post">
     <div class="form-group">
@@ -38,4 +154,4 @@
    
     <button type="submit" class="btn btn-primary">Crear Paciente</button>
 </form>
-<a class="btn btn-secondary" asp-page="/Index">Volver</a>
+<a class="btn btn-secondary" asp-page="/Index">Volver</a> -->

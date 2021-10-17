@@ -1,0 +1,23 @@
+﻿@page
+@model SaludIntegral.App.Frontend.Pages.SignUpModel
+@{
+    Layout = "/Pages/Shared/_LayoutLoginSignup.cshtml";
+}
+<div class="container-fluid d-flex justify-content-center align-middle" style="height: 560px;">
+    <div class="d-block border shadow p-3 mb-5 bg-white rounded text-center" style=" height: 510px; width: 470px; margin: auto;">
+        <h2 style="margin: 0 auto; padding-top: 25px">Choose your account type</h2>
+        <div class="d-flex pt-4 pb-3">
+            <div class="d-block">
+                <input type="checkbox" id="doctor" class="checkbox-account" name="doctor" value="yes"><img src="/Resource/doctor.png" width="180px" height="180px" alt="Doctor"><strong>Doctor</strong>
+                 <p @*style="text-align:center"*@>Doctor</p></a>
+            </div>
+            <div class="d-block">
+                <input type="checkbox" id="patient" class="checkbox-account" name="patient" value="yes"><img src="/Resource/paciente.png" width="180px" height="180px" alt="Patient"><strong>Patient</strong>
+                <p @*style="text-align:center"*@>Patient</p></a>
+            </div>
+        </div>
+        <h3>Welcome, <span id="typeAccount">Patient!</span></h3>
+        <p>Click on continue and fill all the information to create your new account.</p>
+        <button type="button" asp-page="/DoctorForm" id="continue" style="margin: 0 auto;" class="btn btn-primary btn-lg pb-2">Continue</button>
+    </div>
+</div>

@@ -1,0 +1,77 @@
+[33mcommit ec0df1429e755454e658643929fc7f28d0518005[m[33m ([m[1;36mHEAD -> [m[1;32mNueva_Esperanza[m[33m, [m[1;31morigin/Nueva_Esperanza[m[33m)[m
+Author: JeisonRedondo <jeida16@yahoo.es>
+Date:   Fri Oct 15 21:31:48 2021 -0500
+
+    MIgracion Consola ON Front End ON
+
+[33mcommit 6a8ccac5073e6c3363eb4b57be676126e30b6c95[m[33m ([m[1;31morigin/prelinux[m[33m)[m
+Author: AFiquitiva <jafiquitiva@gmail.com>
+Date:   Fri Oct 15 18:44:17 2021 -0500
+
+    añadir locacion,editar paciente,buscar cuenta paciente
+
+[33mcommit 168c0cc88d9fbd51dc0a4b9111c4ffb85b70d7c3[m
+Author: AFiquitiva <jafiquitiva@gmail.com>
+Date:   Fri Oct 15 01:27:22 2021 -0500
+
+    añadido mostrar: pacientes, buscar mi cuenta,metodo medico
+
+[33mcommit d206d2ffdb1d47c55bfc0751a5c6fa1c8c48b520[m
+Author: AFiquitiva <jafiquitiva@gmail.com>
+Date:   Thu Oct 14 17:01:54 2021 -0500
+
+    elminado frontend de jhonatan; cree un frontend  nuevo. crear medico,crear paciente, ver medicos
+
+[33mcommit b205d9797bceda14e3ac7e13fad61b29a0f1bf11[m
+Author: AFiquitiva <jafiquitiva@gmail.com>
+Date:   Wed Oct 13 15:27:49 2021 -0500
+
+    Añadido frontend de jonathanBranch,se agrega entidad a BD. FUNCIONAL
+
+[33mcommit 3bca19deb31687297e1c8e0b4abbb29368ae6e66[m
+Author: AFiquitiva <jafiquitiva@gmail.com>
+Date:   Tue Oct 12 23:02:53 2021 -0500
+
+    revision errores
+
+[33mcommit 522bf83bbf76f2fa963cc2eefcb216289bff9203[m
+Author: JeisonRedondo <jeida16@yahoo.es>
+Date:   Fri Oct 8 21:47:12 2021 -0500
+
+    Update Methods Entites: CRUD ON Init Documentation
+
+[33mcommit db6324c7d0d14ab2504a85aa40769b51a0767eab[m
+Author: JeisonRedondo <jeida16@yahoo.es>
+Date:   Tue Oct 5 23:04:10 2021 -0500
+
+    Update Jeison Entities
+
+[33mcommit 879dd0ad0efcf152c2c23970fce9e33d26dfdb29[m
+Author: JeisonRedondo <jeida16@yahoo.es>
+Date:   Sun Oct 3 19:29:33 2021 -0500
+
+    Add REPO Patient
+
+[33mcommit 8eaa6e3ddbe493dd8fe88fdb9553d07a304c070a[m
+Author: AFiquitiva <jafiquitiva@gmail.com>
+Date:   Thu Sep 30 21:15:48 2021 -0500
+
+    comentario respaldo prueba merge
+
+[33mcommit ca608b2769c613ef3df9e3dd7dd92776d5173217[m
+Author: JeisonRedondo <jeida16@yahoo.es>
+Date:   Wed Sep 29 20:26:01 2021 -0500
+
+    BD ON, Add Frontend.
+
+[33mcommit 204e3f4440824d3deb8d0d6069740d18228e240a[m
+Author: JeisonRedondo <jeida16@yahoo.es>
+Date:   Wed Sep 29 17:06:05 2021 -0500
+
+    Codigo Modificado, Nuevos Rquerimientos
+
+[33mcommit e9a0a0115f9ab225f8e21795333bc88c74221084[m
+Author: JeisonRedondo <jeida16@yahoo.es>
+Date:   Mon Sep 27 18:22:05 2021 -0500
+
+    Este es el primer Archivo de Proyecto

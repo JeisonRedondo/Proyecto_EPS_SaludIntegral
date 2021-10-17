@@ -23,7 +23,7 @@ namespace SaludIntegral.App.Consola
            //AddPatient(); 
            //Find_Patient(3);
            //Show_Patient();
-           Delete_Patient(3);
+           Delete_Patient(6);
            //AddLocationsInPatient();
 
            //AddMedic();

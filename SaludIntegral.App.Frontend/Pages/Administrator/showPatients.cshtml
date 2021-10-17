@@ -14,5 +14,17 @@
             <td>@paciente.EPS</td>
 
         </tr>
+         <tbody>
+        @foreach (var paciente in Model.pacientes)
+        {
+            <tr>
+                <td>@paciente.Names</td>
+                <td>@paciente.Identification</td>
+                <td>@paciente.Gender</td>
+                <!--<td><a class="btn btn-secondary" asp-page="./Details1" asp-route-id="@paciente.Id">Detalle</a></td>-->
+                <td><a class="btn btn-secondary" asp-page="./EditPatient" asp-route-id="@paciente.Id">Editar</a></td>
+            </tr>
+        }
+    </tbody>
     }
 </table>

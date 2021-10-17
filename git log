@@ -1,0 +1,13 @@
+[33mec0df14[m[33m ([m[1;36mHEAD -> [m[1;32mNueva_Esperanza[m[33m, [m[1;31morigin/Nueva_Esperanza[m[33m)[m MIgracion Consola ON Front End ON
+[33m6a8ccac[m[33m ([m[1;31morigin/prelinux[m[33m)[m añadir locacion,editar paciente,buscar cuenta paciente
+[33m168c0cc[m añadido mostrar: pacientes, buscar mi cuenta,metodo medico
+[33md206d2f[m elminado frontend de jhonatan; cree un frontend  nuevo. crear medico,crear paciente, ver medicos
+[33mb205d97[m Añadido frontend de jonathanBranch,se agrega entidad a BD. FUNCIONAL
+[33m3bca19d[m revision errores
+[33m522bf83[m Update Methods Entites: CRUD ON Init Documentation
+[33mdb6324c[m Update Jeison Entities
+[33m879dd0a[m Add REPO Patient
+[33m8eaa6e3[m comentario respaldo prueba merge
+[33mca608b2[m BD ON, Add Frontend.
+[33m204e3f4[m Codigo Modificado, Nuevos Rquerimientos
+[33me9a0a01[m Este es el primer Archivo de Proyecto

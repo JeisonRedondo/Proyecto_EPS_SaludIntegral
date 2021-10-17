@@ -9,9 +9,33 @@ using SaludIntegral.App.Persistencia;
 
 namespace SaludIntegral.App.Frontend.Pages
 {
-    public class scheduleAppointmentModel : PageModel
+    public class scheduleAppointmentModel : PageModel    
     {
-        private readonly IRepository_Schedule _repoDate;
+        private readonly IRepository_Patient _repoPatient;
+        private readonly IRepository_Medic _repoMedic;
+        public Patient patient {get; set;}
+        public IEnumerable<Medic> medicos {get; set;}
+
+        public scheduleAppointmentModel(IRepository_Patient repoPatient, IRepository_Medic repoMedic)
+        {
+            _repoPatient = repoPatient;
+            _repoMedic = repoMedic;
+        }
+        public void OnGet(int id)
+        {
+            pacient =_repoPatient.GetPatient(id);
+            medicos = _repoMedic.GetAllMedics(); 
+        }
+        public IActionResult OnPost(int idPatient, int Id_Medic)
+        {
+            _repoPatient.AssignMedic(idPatient, Id_Medic);
+            return RedirectToPage("IndexP", new {id=idPaciente});
+        }
+
+
+
+
+       /* private readonly IRepository_Schedule _repoDate;
 
         private readonly IRepository_Patient _repoPatient;
         private readonly IRepository_Medic _repoMedic;
@@ -25,7 +49,10 @@ namespace SaludIntegral.App.Frontend.Pages
         }
 
 
-
+        public void OnGet()
+        {
+            medicos = _repoMedic.GetAllMedics();
+        }
 
         public IActionResult OnGet(int id)
         {
@@ -37,17 +64,12 @@ namespace SaludIntegral.App.Frontend.Pages
             else
             {
                 return Page();
-            }
-
+            }  
 
         }
+        */
 
-        public void OnGet()
-        {
-            medicos = _repoMedic.GetAllMedics();
-        }
-
-
+     
 
     }
 

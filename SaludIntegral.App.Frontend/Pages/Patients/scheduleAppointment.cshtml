@@ -3,8 +3,54 @@
 @model SaludIntegral.App.Frontend.Pages.scheduleAppointmentModel
 @{
 }
+@*esto es un comenario*@
 
-<h1>Agendar cita</h1>
+
+@*codigo de prueba 16 10 2021*@
+<h1>Agendar cita </h1>
+<form method="post">
+    <div class="form-group">
+        <label for="idPatient">Paciente</label>
+        <input type="hidden" id="idPatient" name="idPatient" class="form-control" value="@Model.pacient.Id" readonly>
+        <label class="form-control">@Model.pacient.Names</label>
+    </div>
+    <div class="form-group">
+        <label for="Id_Medic">Medico</label>
+        <select name="Id_Medic" id="Id_Medic" class="form-control">
+            @foreach (var medico in Model.medicos)
+            {
+                <option value="@medico.Id">@medico.Names - @medico.Specialization </option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block">Agendar cita</button>
+</form>
+<a class="btn btn-secondary" asp-page="./Index1">Volver</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*<h1>Agendar cita</h1>
 <form method="post">
     <div class="form-group">
         <label asp-for="patient.Id".Id"></label>
@@ -18,9 +64,26 @@
         <label asp-for="patient.Names"></label>
         <input asp-for="patient.Names" class="form-control"readonly >        
     </div>
-       
     
+    <div class="form-group">
+        <label asp-for="medicos"></label>
+        <select asp-for="medicos" asp-items="@medicos.names" class="form-control">
+        </select>
+    </div>
+
+    
+    <div class="form-group">
+        <label  > Medicos disponibles</label>
+        <select class="form-control" >
+            @foreach(var medico in Model.medicos)
+            {
+                <option value = "@medico.Names"></option>
+            }
+            
+        </select>
+    </div>
+          
    
     <button type="submit" class="btn btn-primary">Agendar cita</button>
 </form>
-<a class="btn btn-secondary" asp-page="./Index1">Volver</a>
+<a class="btn btn-secondary" asp-page="./Index1">Volver</a>*@

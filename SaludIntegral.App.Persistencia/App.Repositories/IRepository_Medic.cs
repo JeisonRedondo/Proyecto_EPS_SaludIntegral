@@ -17,7 +17,7 @@ namespace SaludIntegral.App.Persistencia
 
      void DeleteMedic(int Id_Medic);
      
-     Medic GetMedic(int Id_Medic);
+     Medic GetMedic(int oEncontrado);
 
      Locations AddLocationsInMedic(int idMedico, int idSede);  
 

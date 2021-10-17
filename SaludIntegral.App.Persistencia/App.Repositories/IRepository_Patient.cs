@@ -21,6 +21,10 @@ namespace SaludIntegral.App.Persistencia
         Locations AddLocationsInPatient(int idPaciente , int idSede);
 
         IEnumerable<Patient> SearchPatiens(string name);
+        
+        //codigo de prueba 16 10 2021
+        
+        Medic AssignMedic(int idPatient, int Id_Medic);
 
         
     

@@ -37,7 +37,6 @@ C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\S
 C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.csproj.CopyComplete
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\bin\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.exe
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\bin\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.deps.json
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\bin\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.runtimeconfig.json
@@ -46,7 +45,6 @@ C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\bin\Debug\netcoreapp3.1
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\bin\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.pdb
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\bin\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.Views.dll
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\bin\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.Views.pdb
-C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.csprojAssemblyReference.cache
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.AssemblyInfoInputs.cache
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.AssemblyInfo.cs
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
@@ -77,3 +75,8 @@ C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\DoctorAccount.cshtml.g.cs
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\InitialPanelDoctor.cshtml.g.cs
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LayoutAccount.cshtml.g.cs
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.FrontEnd\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.csproj.AssemblyReference.cache
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.FrontEnd\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.FrontEnd\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.csproj.CoreCompileInputs.cache
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.FrontEnd\obj\Debug\netcoreapp3.1\scopedcss\bundle\SaludIntegral.App.Frontend.styles.css
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.FrontEnd\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.genruntimeconfig.cache

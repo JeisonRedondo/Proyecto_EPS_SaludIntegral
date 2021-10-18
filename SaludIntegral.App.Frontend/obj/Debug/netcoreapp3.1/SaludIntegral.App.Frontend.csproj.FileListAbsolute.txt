@@ -199,3 +199,5 @@ C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\bin\Debug\netcoreapp3.1\S
 C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.Views.pdb
 C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.csproj.CopyComplete
 C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.genruntimeconfig.cache
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Patients\InitialPanelPatient.cshtml.g.cs
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Patients\UpDatePatientAccount.cshtml.g.cs

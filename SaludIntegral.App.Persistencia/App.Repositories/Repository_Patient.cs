@@ -90,7 +90,7 @@ namespace SaludIntegral.App.Persistencia
         
         //codigo de prueba 16 10 2021
 
-        Medic IRepository_Patient.AssignMedic(int idPatient, int Id_Medic)
+        /*Medic IRepository_Patient.AssignMedic(int idPatient, int Id_Medic)
         {
             var patientFound = _appContext.Pacientes.FirstOrDefault(p => p.Id == idPatient);
             if (patientFound != null)
@@ -104,7 +104,7 @@ namespace SaludIntegral.App.Persistencia
                 return medicFound;
             }
             return null;
-        } 
+        } */
 
 
 

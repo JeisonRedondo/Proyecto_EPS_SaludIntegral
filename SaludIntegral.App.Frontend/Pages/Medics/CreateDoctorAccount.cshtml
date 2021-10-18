@@ -1,8 +1,146 @@
 ﻿@page
 @using SaludIntegral.App.Dominio
 @model SaludIntegral.App.Frontend.Pages.Medics.CreateDoctorAccountModel
+
 @{
+    ViewData["Title"] = "Create Doctor Account page";
 }
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to enter data Doctor´s Account.</p>
+<button>
+    <a href="/CreateAccount">Go Back</a>
+</button>
+
+<body>
+    <main>
+        <style>
+            .round_table {
+                border-collapse: separate;
+                border-spacing: 10;
+                border: 2px solid grey;
+                border-radius: 15px;
+                -moz-border-radius: 20px;
+                padding: 2px;
+                -webkit-border-radius: 10px;
+            }
+        </style>
+
+        
+        <table class="round_table" align="Center">
+            <form method="post">
+            
+            
+
+            <tr>                
+                <td colspan="3" style="text-align:center">
+                    <img src="Images4Site/doctor.png" width="150" alt="Logo_Doctor" height="150"/>
+                    <h5>
+                        <p><p>¡Wellcome!</p></p>
+                    </h5>
+                    <p><p>Fill out the form to create an account in the system </p></p>
+                </td>                
+            </tr>
+
+            <tr>                
+                <td style="text-align:left">
+                    <div class="form-group">
+                    <p><h6>Complete Name</h6>
+                    <p><input  asp-for="medic.Names" type="text" size="30" value="--Type Your Complete Name--" maxlength="30"  name="Names" class="form-control"></p></p>        
+                    <span asp-validation-for="medic.Names" class="text-danger"></span>
+                    </div>
+                </td>
+                               
+                <td>
+                </td>
+                <td style="text-align:left">
+                    <p><h6>ID Number</h6>
+                    <p><input asp-for="medic.Identification" type="text" size="30"  maxlength="30"  name="Identification" class="form-control"></p></p>                                      
+                    <span asp-validation-for="medic.Identification" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>Gender</h6>                    
+                    @*<p><input asp-for="medic.Gender" type="text" size="30" maxlength="30"  value="--Select Your Gender--" name="Gender" class="form-control"></p></p>*@
+                    <select asp-for="medic.Gender" class="form-label" id="Gender" name="Gender" arial-label="Choose your gender">
+                        <option selected>Choose your gender</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="3">Bisexual</option>
+                        <option value="4">Intersex</option>
+                        <option value="5">Pansexual</option>
+                        <option value="6">Other</option>
+                    </select>
+                </td>
+                <td>  
+                </td>
+                <td style="text-align:left">
+                    <p><h6>Movíl Number</h6>
+                    <p><input asp-for="medic.Phone_number" type="text" size="30" value="--Type Your Movíl Number--" maxlength="30"  name="Phone_number" class="form-control"></p></p>                    
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>Email</h6>
+                    <p><input  asp-for="medic.Email" type="text" size="30" value="--Type Your Email--" maxlength="30"  name="Email" class="form-control"></p></p>                    
+                </td>
+                <td>  
+                </td>
+                <td style="text-align:left">
+                    <p><h6>Date Of Birth</h6>
+                    <p><input asp-for="medic.DateOfBirth" type="date" size="30" value="--Select Your Date of Birth--" maxlength="30"  name="DateOfBirth" class="form-control"></p></p>                    
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>Medic Number Registration</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Type Your Medic Number Registration--"  name="MNR"></p></p>
+                </td>
+                <td>  
+                </td>
+                <td style="text-align:left">
+                    <p><h6>Medic Specialization</h6>
+                    <p><input asp-for="medic.Specialization" type="text" size="30" maxlength="30"  value="--Type Your Medic Specialization--"  name="Specialization" class="form-control"></p></p>
+                </td>
+            </tr>
+            <tr><td><p></p></td></tr>
+            <tr>
+                <td colspan="3" style="text-align:center">
+                    <p>
+                        @*<button>
+                            <a>Create Account</a>
+                        </button>*@
+                        <button type="submit" class="btn btn-primary">Create Account</button>
+                        
+                    </p>
+                    <p>
+                        <a>¿Do you already have an account?</a>
+                        <a @*style= "color:blue;"*@ href="/Loggin">¡Loggin Here!</a>
+                    </p>
+                </td>
+            </tr>
+            <tr><td><p></p></td></tr>
+              </form>
+        </table>
+        
+              
+
+    </main>
+</body>
+
+
+
+@*
+
+
+
+
+
+
+
+
 <h1>Nuevo medico</h1>
 <form method="post">
     <div class="form-group">
@@ -38,4 +176,4 @@
    
     <button type="submit" class="btn btn-primary">Crear Medico</button>
 </form>
-<a class="btn btn-secondary" asp-page="/Index">Volver</a>
+<a class="btn btn-secondary" asp-page="/Index">Volver</a>*@

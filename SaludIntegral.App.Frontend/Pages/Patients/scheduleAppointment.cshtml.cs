@@ -11,7 +11,7 @@ namespace SaludIntegral.App.Frontend.Pages
 {
     public class scheduleAppointmentModel : PageModel    
     {
-        private readonly IRepository_Patient _repoPatient;
+        /*private readonly IRepository_Patient _repoPatient;
         private readonly IRepository_Medic _repoMedic;
         public Patient patient {get; set;}
         public IEnumerable<Medic> medicos {get; set;}
@@ -30,7 +30,7 @@ namespace SaludIntegral.App.Frontend.Pages
         {
             _repoPatient.AssignMedic(idPatient, Id_Medic);
             return RedirectToPage("IndexP", new {id=idPaciente});
-        }
+        }*/
 
 
 

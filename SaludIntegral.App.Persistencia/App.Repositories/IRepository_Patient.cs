@@ -24,7 +24,7 @@ namespace SaludIntegral.App.Persistencia
         
         //codigo de prueba 16 10 2021
         
-        Medic AssignMedic(int idPatient, int Id_Medic);
+        //Medic AssignMedic(int idPatient, int Id_Medic);
 
         
     

@@ -1,0 +1,5 @@
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\obj\Debug\netstandard2.1\SaludIntegral.App.Frontend.csproj.AssemblyReference.cache
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\obj\Debug\netstandard2.1\SaludIntegral.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\obj\Debug\netstandard2.1\SaludIntegral.App.Frontend.AssemblyInfoInputs.cache
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\obj\Debug\netstandard2.1\SaludIntegral.App.Frontend.AssemblyInfo.cs
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\obj\Debug\netstandard2.1\SaludIntegral.App.Frontend.csproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\bin\Debug\net5.0\SaludIntegral.App.Dominio.deps.json
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\bin\Debug\net5.0\SaludIntegral.App.Dominio.runtimeconfig.json
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\bin\Debug\net5.0\SaludIntegral.App.Dominio.runtimeconfig.dev.json
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\bin\Debug\net5.0\SaludIntegral.App.Dominio.dll
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\bin\Debug\net5.0\ref\SaludIntegral.App.Dominio.dll
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\bin\Debug\net5.0\SaludIntegral.App.Dominio.pdb
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\net5.0\SaludIntegral.App.Dominio.csproj.AssemblyReference.cache
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\net5.0\SaludIntegral.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\net5.0\SaludIntegral.App.Dominio.AssemblyInfoInputs.cache
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\net5.0\SaludIntegral.App.Dominio.AssemblyInfo.cs
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\net5.0\SaludIntegral.App.Dominio.csproj.CoreCompileInputs.cache
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\net5.0\SaludIntegral.App.Dominio.dll
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\net5.0\ref\SaludIntegral.App.Dominio.dll
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\net5.0\SaludIntegral.App.Dominio.pdb
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\net5.0\SaludIntegral.App.Dominio.genruntimeconfig.cache

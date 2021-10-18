@@ -26,7 +26,6 @@ C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.FrontEnd\obj\Debug\netcoreapp5.0
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.FrontEnd\obj\Debug\netcoreapp5.0\Razor\Pages\CreateAccount.cshtml.g.cs
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.FrontEnd\obj\Debug\netcoreapp5.0\Razor\Pages\CreateDoctorAccount.cshtml.g.cs
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.FrontEnd\obj\Debug\netcoreapp5.0\Razor\Pages\CreatePatientAccount.cshtml.g.cs
-C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.FrontEnd\obj\Debug\netcoreapp5.0\Razor\Pages\DoctorAccount.cshtml.g.cs
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.FrontEnd\obj\Debug\netcoreapp5.0\Razor\Pages\Error.cshtml.g.cs
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.FrontEnd\obj\Debug\netcoreapp5.0\Razor\Pages\Index.cshtml.g.cs
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.FrontEnd\obj\Debug\netcoreapp5.0\Razor\Pages\InitialPanelDoctor.cshtml.g.cs
@@ -45,3 +44,4 @@ C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.FrontEnd\obj\Debug\netcoreapp5.0
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.FrontEnd\obj\Debug\netcoreapp5.0\SaludIntegral.App.Frontend.pdb
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.FrontEnd\obj\Debug\netcoreapp5.0\SaludIntegral.App.Frontend.genruntimeconfig.cache
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.FrontEnd\obj\Debug\netcoreapp5.0\SaludIntegral.App.Frontend.csproj.CopyComplete
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp5.0\Razor\Pages\UpDateDoctorAccount.cshtml.g.cs

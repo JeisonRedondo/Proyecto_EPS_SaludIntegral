@@ -15,7 +15,7 @@
             <div class="container">
                 <div></div>
                 @*<a class="navbar-brand" asp-area="" asp-page="/Index">SaludIntegral.App.Frontend</a>*@
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                <button class="navbar-toggler" type="button " data-toggle="collapse" data-target=".navbar-collapse"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -24,7 +24,7 @@
                         <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <div class="profile-space">
-                                <span>¡Bienvenido, <strong>doctor!</strong></span>
+                                <span>¡Wellcome, <strong>Doctor!</strong></span>
                                 <img src="Images4Site/doctor-image-perfil.jpg" width="96px" height="48px" alt="Profile picture" title="Profile picture">
                             </div>
                         </li>
@@ -38,8 +38,7 @@
         </nav>
     </header><!-- End header-->
 
-
-    <div class="wrapper">
+    @*<div class="wrapper">
         <!-- Sidebar -->
         <nav id="sidebar">
             <div class="sidebar-header" id="sidebar-header">
@@ -47,14 +46,17 @@
             </div>
 
             <ul class="list-unstyled components" id="menu-sidebar">
+                <li text-aling="center">
+                    <a asp-page="/UpDateDoctorAccount">Profile</a>
+                </li>
                 <li>
                     <div class="container-component-menu">
                         @*<img src="Images4Site/cita-icono.png" width="32px" height="32px" alt="Confirm appointment" title="Confirm appointment">*@
-                        <a asp-page="/Index">Confirm appointment</a>
+                        @*<a asp-page="/DoctorAppointment">Appointments</a>
                     </div>
                 </li>
-                <li>
-                    <a asp-page="/Index">Instructions</a>
+                <li text-aling="center">
+                    <a asp-page="/Help">Instructions</a>
                 </li>
                 <li>
                     <a asp-page="/Index">Logout</a>
@@ -63,19 +65,44 @@
         </nav>
         <div id="content">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-
-                    <button type="button" id="sidebarCollapse" class="btn btn-info">
-                        <i class="fas fa-align-left"></i>
-                        <span>MENU</span>
-                    </button>
-                    <p><span>PRUEBA</span></p>
-                    <p><img src="Images4Site/cita-icono.png" width="32px" height="32px" alt="Confirm appointment" title="Confirm appointment"></p>
-
+                <div>
+                    <br></br>
+                    <div class="container-fluid">
+                        <button type="button" id="sidebarCollapse" class="btn btn-info">
+                            @*<i class="fas fa-align-left"></i>
+                            <span>MENU</span>*@
+                            @*<span><img src="Images4Site/menu.png" width="32px" height="32px" alt="Menu" title="Menu"></span>
+                        </button>
+                    </div>
+                    <br><br></br></br>
+                    <div class="container-fluid">
+                        <a asp-page="/UpDateDoctorAccount">
+                            <img src="Images4Site/perfil.png" width="32px" height="32px" alt="Profile" title="Profile">
+                        </a>
+                    </div>
+                    <br></br>
+                    <div class="container-fluid">
+                        <a asp-page="/DoctorAppointment">
+                            <img src="Images4Site/cita-icono.png" width="32px" height="32px" alt="Confirm appointment" title="Confirm appointment">
+                        </a>
+                    </div>
+                    <br></br>
+                    <div class="container-fluid">
+                        <a asp-page="/Help">
+                            <img src="Images4Site/instrucciones.png" width="32px" height="32px" alt="Help" title="Help">
+                        </a>
+                    </div>
+                    <br></br>
+                    <div class="container-fluid">
+                        <a asp-page="/Index">
+                            <img src="Images4Site/out.png" width="32px" height="32px" alt="LogOut" title="LogOut">
+                        </a>
+                    </div>
                 </div>
             </nav>
         </div>
-    </div>
+    </div>*@
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

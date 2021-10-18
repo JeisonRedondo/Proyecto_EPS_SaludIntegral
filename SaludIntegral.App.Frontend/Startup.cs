@@ -27,7 +27,7 @@ namespace SaludIntegral.App.Frontend
             services.AddRazorPages();
             services.AddSingleton<IRepository_Medic,Repository_Medic>();
             services.AddSingleton<IRepository_Patient,Repository_Patient>();
-            services.AddSingleton<IRepository_Locations,Repository_Locations>();
+            
 
 
         }

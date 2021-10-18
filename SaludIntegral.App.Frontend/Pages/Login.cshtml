@@ -12,12 +12,14 @@
             <form>
                 <div class="form-group">
                     <label for="email" >Email</label>
-                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="mail@domain.com">
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="--mail@domain.com--">
                     <small id="emailHelp" class="form-text text-muted">Remember to use the correct email.</small>
+                    <!--<span asp-validation-for="Paciente.Email" class="text-danger"></span>-->
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" class="form-control" id="password" placeholder="Your password">
+                    <input type="password" class="form-control" id="password" placeholder="--Your password--">
+                    <!--<span asp-validation-for="Paciente.Password" class="text-danger"></span>-->
                 </div>
                  <button type="submit" class="btn btn-primary btn-block">Login</button>
                 <small id="createAccount" class="form-text text-muted">Don't have an account? <a asp-page="/Index">Create it now.</a></small>

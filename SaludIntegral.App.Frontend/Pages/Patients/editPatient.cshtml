@@ -1,6 +1,8 @@
 ﻿@page
-@model SaludIntegral.App.Frontend.Pages.Patients.EditPatientModel
+@using SaludIntegral.App.Dominio
+@model SaludIntegral.App.Frontend.Pages.Patients.editPatientModel
 @{
+    ViewData["Title"] = "Edit Patient Account page";
 }
 <h1>Editar mi cuenta  paciente</h1>
 <form method="post">
@@ -17,33 +19,41 @@
         <input asp-for="patient.Names" class="form-control">
         <span asp-validation-for="patient.Names" class="text-danger"></span>
     </div>
-        <div class="form-group">
+    <div class="form-group">
         <label asp-for="patient.DateOfBirth"></label>
         <input asp-for="patient.DateOfBirth" class="form-control">
+        <span asp-validation-for="patient.DateOfBirth" class="text-danger"></span>
     </div>
-        <div class="form-group">
+    <div class="form-group">
         <label asp-for="patient.Gender"></label>
         <input asp-for="patient.Gender" class="form-control">
+        
     </div>
-        <div class="form-group">
+    <div class="form-group">
         <label asp-for="patient.Phone_number"></label>
         <input asp-for="patient.Phone_number" class="form-control">
+        <span asp-validation-for="patient.Phone_number" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="patient.Email"></label>
         <input asp-for="patient.Email" class="form-control">
+        <span asp-validation-for="patient.Email" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="patient.EPS"></label>
         <input asp-for="patient.EPS" class="form-control">
+        
     </div>
     <div class="form-group">
         <label asp-for="patient.Password"></label>
         <input asp-for="patient.Password" class="form-control">
+        <span asp-validation-for="patient.Password" class="text-danger"></span>
     </div>
-        <div class="form-group">
+    <div class="form-group">
         <label asp-for="patient.Location"></label>
-        <input asp-for="patient.Location" class="form-control">
+        <!--<p><select asp-for="Paciente.Location" asp-items="Html.GetEnumSelectList<Locations>()" class="form-control"  placeholder="--Select Your Location--" name="Location"></select></p>-->
+        <select asp-for="patient.Location" asp-items="Html.GetEnumSelectList<Locations>()" class="form-control"></select>
+        <!--<span asp-validation-for="patient.Location" class="text-danger"></span>-->
     </div>
     <button type="submit" class="btn btn-primary">Editar mi cuenta paciente</button>
 </form>

@@ -67,22 +67,7 @@ namespace SaludIntegral.App.Persistencia
             _appContext.SaveChanges();
         }
 
-        Locations IRepository_Schedule.AddLocationsInSchedule(int idCita, int idSede)
-        {
-            var citaEncontrada = _appContext.Agendas.FirstOrDefault(p => p.Id == idCita);
-            if (citaEncontrada != null)
-            {
-                var sedeEncontrada = _appContext.Sedes.FirstOrDefault(m => m.Id == idSede);
-                if (sedeEncontrada != null)
-                {
-                    citaEncontrada.Location = sedeEncontrada;
-                    _appContext.SaveChanges();
-                }
-                return sedeEncontrada;
-            }
-            return null;
-
-        }
+        
 
         Medic IRepository_Schedule.AddMedicInSchedule(int idCita, int idMedic)
         {

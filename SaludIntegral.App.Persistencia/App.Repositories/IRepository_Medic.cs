@@ -19,7 +19,7 @@ namespace SaludIntegral.App.Persistencia
      
      Medic GetMedic(int Id_Medic);
 
-     Locations AddLocationsInMedic(int idMedico, int idSede);  
+       
 
     IEnumerable<Medic> SearchMedics(string name);
 

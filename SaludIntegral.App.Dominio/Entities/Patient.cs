@@ -1,14 +1,19 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace SaludIntegral.App.Dominio
 
 {
-    public class Patient:Person
+    /// <summary>
+    /// Patient.
+    /// </summary>
+    /// <seealso cref="Person" />
+    public class Patient : Person
     {
-        
-        public string EPS { get; set;}
-        
-        
+        [StringLength(50, ErrorMessage = "Longitud Maxima 50")]
+        public string EPS { get; set; }
+
+
 
     }
 }

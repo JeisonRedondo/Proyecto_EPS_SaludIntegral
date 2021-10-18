@@ -41,7 +41,7 @@
                 
                 <td style="text-align:left">
                     <p><h6>Complete Name</h6>
-                    <p><input asp-for="Paciente.Names" class="form-control" type="text" size="30" maxlength="30" value="--Type Your Complete Name--" name="Names"></p></p>
+                    <p><input asp-for="Paciente.Names" class="form-control" type="text" size="30" maxlength="30" placeholder="--Type Your Complete Name--" name="Names"></p></p>
                     <!--<input asp-for="Paciente.Names" class="form-control">-->
                     <span asp-validation-for="Paciente.Names" class="text-danger"></span>
                 </td>
@@ -49,7 +49,7 @@
                 </td>
                 <td style="text-align:left">
                     <p><h6>ID Number</h6>
-                    <p><input asp-for="Paciente.Identification" class="form-control" type="text" size="30" maxlength="30" value="--Type Your ID Number--" name="Identification"></p></p>
+                    <p><input asp-for="Paciente.Identification" class="form-control" type="text" size="30" maxlength="30" placeholder="--Type Your ID Number--" name="Identification"></p></p>
                     <!--<input asp-for="Paciente.Identification" class="form-control">-->
                     <span asp-validation-for="Paciente.Identification" class="text-danger"></span>
                 </td>
@@ -57,15 +57,15 @@
             <tr>
                 <td style="text-align:left">
                     <p><h6>Gender</h6>
-                    <p><input asp-for="Paciente.Gender" class="form-control" type="text" size="30" maxlength="30" value="--Select Your Gender--" name="Gender"></p></p>
+                    <p><input asp-for="Paciente.Gender" class="form-control" type="text" size="30" maxlength="30" placeholder="--Select Your Gender--" name="Gender"></p></p>
                     <!--<input asp-for="Paciente.Gender" class="form-control">-->
-                    <span asp-validation-for="Paciente.Gender" class="text-danger"></span>
+                    
                 </td>
                 <td>  
                 </td>
                 <td style="text-align:left">
                     <p><h6>Movíl Number</h6>
-                    <p><input asp-for="Paciente.Phone_number" class="form-control type="text" size="30" maxlength="30" value="--Type Your Movíl Number--" name="Phone_number"></p></p>
+                    <p><input asp-for="Paciente.Phone_number" class="form-control type="text" size="30" maxlength="30" placeholder="--Type Your Movíl Number--" name="Phone_number"></p></p>
                     <!--<input asp-for="Paciente.Phone_number" class="form-control">-->
                     <span asp-validation-for="Paciente.Phone_number" class="text-danger"></span>
                 </td>
@@ -73,7 +73,7 @@
             <tr>
                 <td style="text-align:left">
                     <p><h6>Email</h6>
-                    <p><input asp-for="Paciente.Email" class="form-control type="text" size="30" maxlength="30" value="--Type Your Email--" name="Email"></p></p>
+                    <p><input asp-for="Paciente.Email" class="form-control type="text" size="30" maxlength="30" placeholder="--Type Your Email--" name="Email"></p></p>
                     <!--<input asp-for="Paciente.Email" class="form-control">-->
                     <span asp-validation-for="Paciente.Email" class="text-danger"></span>
                 </td>
@@ -81,21 +81,40 @@
                 </td>
                 <td style="text-align:left">
                     <p><h6>Date of Birth</h6>
-                    <p><input asp-for="Paciente.DateOfBirth" class="form-control type="text" size="30" maxlength="30" value="--Select Your Date of Birth--" name="DateOfBirth"></p></p>
+                    <p><input asp-for="Paciente.DateOfBirth" class="form-control type="text" size="30" maxlength="30" placeholder="--Select Your Date of Birth--" name="DateOfBirth"></p></p>
                     <!--<input asp-for="Paciente.DateOfBirth" class="form-control">-->
-                    <span asp-validation-for="Paciente.DateOfBirth" class="text-danger"></span>
+                   
                 </td>
             </tr>
             <tr>
                 <td style="text-align:left">
                     <p><h6>EPS</h6>
-                    <p><input asp-for="Paciente.EPS" class="form-control type="text" size="30" maxlength="30" value="--Select Your EPS--" name="EPS"></p></p>
+                    <p><input asp-for="Paciente.EPS" class="form-control type="text" size="30" maxlength="30" placeholder="--Select Your EPS--" name="EPS"></p></p>
                     <!--<input asp-for="Paciente.EPS" class="form-control">-->
-                    <span asp-validation-for="Paciente.EPS" class="text-danger"></span>
+                    
                 </td>               
+                <td>  
+                </td>
+                <td style="text-align:left">
+                    <p><h6>Password</h6>
+                    <p><input asp-for="Paciente.Password" class="form-control type="text" size="30" maxlength="30" placeholder="--Select Your Password--" name="Password"></p></p>
+                    <!--<input asp-for="Paciente.DateOfBirth" class="form-control">-->
+                    <span asp-validation-for="Paciente.Password" class="text-danger"></span>
                 </td>
             </tr>
             <tr><td><p></p></td></tr>
+            <tr>
+                <td >
+                    
+                     <p><h6>Ciudad de Residencia</h6>
+                    <!--<p><input class="form-control type="text" size="30" maxlength="30" placeholder="--Select Your EPS--" name="EPS"></p></p>-->
+                    <p><select asp-for="Paciente.Location" asp-items="Html.GetEnumSelectList<Locations>()" class="form-control"  placeholder="--Select Your Location--" name="Location"></select></p>
+                
+                    <!--<input asp-for="Paciente.EPS" class="form-control">-->
+                    
+                </td>               
+                <td>  
+                </td>
             <tr>
                 <td colspan="3" style="text-align:center">
                     <p>
@@ -111,6 +130,8 @@
                 </td>
             </tr>
             <tr><td><p></p></td></tr>
+            
+            </tr>
            
         </table>
        

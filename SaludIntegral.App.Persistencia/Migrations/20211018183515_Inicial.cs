@@ -8,47 +8,26 @@ namespace SaludIntegral.App.Persistencia.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Sedes",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name_Location = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Address = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    City = table.Column<string>(type: "nvarchar(max)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Sedes", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Personas",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Identification = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Names = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Identification = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Names = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     DateOfBirth = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Gender = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Phone_number = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Password = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    LocationId = table.Column<int>(type: "int", nullable: true),
+                    Gender = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true),
+                    Phone_number = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Password = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Location = table.Column<int>(type: "int", maxLength: 50, nullable: false),
                     Discriminator = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Specialization = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    EPS = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    EPS = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Personas", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Personas_Sedes_LocationId",
-                        column: x => x.LocationId,
-                        principalTable: "Sedes",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -57,7 +36,7 @@ namespace SaludIntegral.App.Persistencia.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    LocationId = table.Column<int>(type: "int", nullable: true),
+                    Location = table.Column<int>(type: "int", nullable: false),
                     MedicId = table.Column<int>(type: "int", nullable: true),
                     PatientId = table.Column<int>(type: "int", nullable: true),
                     Date = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -79,18 +58,7 @@ namespace SaludIntegral.App.Persistencia.Migrations
                         principalTable: "Personas",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_Agendas_Sedes_LocationId",
-                        column: x => x.LocationId,
-                        principalTable: "Sedes",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
                 });
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Agendas_LocationId",
-                table: "Agendas",
-                column: "LocationId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Agendas_MedicId",
@@ -101,11 +69,6 @@ namespace SaludIntegral.App.Persistencia.Migrations
                 name: "IX_Agendas_PatientId",
                 table: "Agendas",
                 column: "PatientId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Personas_LocationId",
-                table: "Personas",
-                column: "LocationId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -115,9 +78,6 @@ namespace SaludIntegral.App.Persistencia.Migrations
 
             migrationBuilder.DropTable(
                 name: "Personas");
-
-            migrationBuilder.DropTable(
-                name: "Sedes");
         }
     }
 }

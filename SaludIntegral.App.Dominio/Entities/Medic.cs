@@ -1,12 +1,17 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace SaludIntegral.App.Dominio
 {
-    public class Medic:Person
+    /// <summary>
+    /// Medic.
+    /// </summary>
+    /// <seealso cref="Person" />
+    public class Medic : Person
     {
-        
-        public string Specialization { get; set;}
-        
+        [Required(ErrorMessage="Campo Obligatorio")]
+        public string Specialization { get; set; }
+
 
     }
 }

@@ -1,0 +1,191 @@
+﻿@page
+@model SaludIntegral.App.Frontend.Pages.UpDateDoctorAccountModel
+@{
+    Layout = "/Pages/Shared/_LayoutAccount.cshtml";
+}
+
+@*<div class="container-fluid d-block border shadow p-3 mb-5 bg-white rounded text-center" style="height: 765px; width:
+    1020px">*@
+<div>
+    <br></br>
+    <button>@*aling="left">*@
+        <a href="/InitialPanelDoctor">Go Back</a>
+    </button>
+    <br></br>
+</div>
+
+<div class="container-fluid d-block border shadow p-3 mb-5 bg-white rounded text-center"
+    style="height: 637px; width: 1020px">
+    @*<body>
+        <main>*@
+    <style>
+        .round_table {
+            border-collapse: separate;
+            border-spacing: 10;
+            border: 0px solid grey;
+            border-radius: 15px;
+            -moz-border-radius: 20px;
+            padding: 2px;
+            -webkit-border-radius: 10px;
+        }
+    </style>
+    <table class="round_table" align="Center">
+        <form method="post">
+            <tr>
+                <td colspan="3" style="text-align:center">
+                    <p>
+                    <p>Fill out the form to UpDate the account in the system </p>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p>
+                    <h6>Complete Name</h6>
+                    <p><input asp-for="medic.Names" class="form-control" type="text" size="30" maxlength="30"
+                            value="--Type Your Complete Name--" name="Complete_Name"></p>
+                    </p>
+                </td>
+                <td>
+                </td>
+                <td style="text-align:left">
+                    <p>
+                    <h6>ID Number</h6>
+                    <p><input asp-for="medic.Identification" class="form-control" readonly type="text" size="30"
+                            maxlength="30" value="--Type Your ID Number--" name="ID_Number"></p>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p>
+                    <h6>Gender</h6>
+                    <p><input asp-for="medic.Gender" class="form-control" type="text" size="30" maxlength="30"
+                            value="--Select Your Gender--" name="Gender"></p>
+                    </p>
+                </td>
+                <td>
+                </td>
+                <td style="text-align:left">
+                    <p>
+                    <h6>Movíl Number</h6>
+                    <p><input asp-for="medic.Phone_number" class="form-control" type="text" size="30" maxlength="30"
+                            value="--Type Your Movíl Number--" name="Movíl_Number"></p>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p>
+                    <h6>Email</h6>
+                    <p><input asp-for="medic.Email" class="form-control" type="text" size="30" maxlength="30"
+                            value="--Type Your Email--" name="Email"></p>
+                    </p>
+                </td>
+                <td>
+                </td>
+                <td style="text-align:left">
+                    <p>
+                    <h6>Date Of Birth</h6>
+                    <p><input asp-for="medic.DateOfBirth" class="form-control" type="text" size="30" maxlength="30"
+                            value="--Select Your Date of Birth--" name="DOB"></p>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p>
+                    <h6>Medic Number Registration</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Type Your Medic Number Registration--"
+                            name="MNR"></p>
+                    </p>
+                </td>
+                <td>
+                </td>
+                <td style="text-align:left">
+                    <p>
+                    <h6>Medic Specialization</h6>
+                    <p><input asp-for="medic.Specialization" class="form-control" type="text" size="30" maxlength="30"
+                            value="--Type Your Medic Specialization--" name="Medic_Specialization"></p>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align:center">
+                    <p>
+                        @*<button>
+                            <a>UpDate Doctor Account</a>
+                        </button>*@
+                        <button type="submit" class="btn btn-primary">UpDate Doctor Account</button>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p></p>
+                </td>
+            </tr>
+        </form>
+    </table>
+    @*</main>
+        </body>*@
+</div>
+
+
+@*
+    @page
+    @using SaludIntegral.App.Dominio
+    @model SaludIntegral.App.Frontend.Pages.Medics.editMedicModel
+    @{
+    }
+    <h1>Editar mi cuenta medico</h1>
+    <form method="post">
+    <div class="form-group">
+    <label asp-for="medic.Id".Id"></label>
+    <input asp-for="medic.Id" class="form-control" readonly>
+    </div>
+    <div class="form-group">
+    <label asp-for="medic.Identification"></label>
+    <input asp-for="medic.Identification" class="form-control" readonly>
+    </div>
+    <div class="form-group">
+    <label asp-for="medic.Names"></label>
+    <input asp-for="medic.Names" class="form-control">
+    <span asp-validation-for="medic.Names" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+    <label asp-for="medic.DateOfBirth"></label>
+    <input asp-for="medic.DateOfBirth" class="form-control">
+    </div>
+    <div class="form-group">
+    <label asp-for="medic.Gender"></label>
+    <input asp-for="medic.Gender" class="form-control">
+    </div>
+    <div class="form-group">
+    <label asp-for="medic.Phone_number"></label>
+    <input asp-for="medic.Phone_number" class="form-control">
+    </div>
+    <div class="form-group">
+    <label asp-for="medic.Email"></label>
+    <input asp-for="medic.Email" class="form-control">
+    </div>
+    <div class="form-group">
+    <label asp-for="medic.Specialization"></label>
+    <input asp-for="medic.Specialization" class="form-control">
+    </div>
+    <div class="form-group">
+    <label asp-for="medic.Password"></label>
+    <input asp-for="medic.Password" class="form-control">
+    </div>
+    <div class="form-group">
+    <label asp-for="medic.Location"></label>
+    <input asp-for="medic.Location" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Editar mi cuenta medico</button>
+    </form>
+    <a class="btn btn-secondary" asp-page="./Index1">Volver</a>*@

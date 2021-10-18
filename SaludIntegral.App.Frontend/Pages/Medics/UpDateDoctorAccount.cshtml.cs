@@ -7,15 +7,13 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using SaludIntegral.App.Dominio;
 using SaludIntegral.App.Persistencia;
 
-// para frontend basico udp
-
-namespace SaludIntegral.App.Frontend.Pages.Medics
+namespace SaludIntegral.App.Frontend.Pages
 {
-    public class editMedicModel : PageModel
+    public class UpDateDoctorAccountModel : PageModel
     {
-        private readonly IRepository_Medic _repoMedic;
+       private readonly IRepository_Medic _repoMedic;
         public Medic medic {get; set;}
-        public editMedicModel(IRepository_Medic repoMedic)
+        public UpDateDoctorAccountModel(IRepository_Medic repoMedic)
         {
             _repoMedic= repoMedic;
         }
@@ -33,8 +31,8 @@ namespace SaludIntegral.App.Frontend.Pages.Medics
         public IActionResult OnPost(Medic medic)
             {
                _repoMedic.UpdateMedic(medic);
+               //una vez termina el update retorna la pagina
                return RedirectToPage("IndexM"); 
             }
-
     }
 }

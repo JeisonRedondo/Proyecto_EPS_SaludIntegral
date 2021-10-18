@@ -18,7 +18,7 @@ namespace SaludIntegral.App.Persistencia
 
         Patient GetPatient(int idPatient);
 
-        Locations AddLocationsInPatient(int idPaciente , int idSede);
+        IEnumerable<Patient> GetPatientLocation(int locacion);
 
         IEnumerable<Patient> SearchPatiens(string name);
 

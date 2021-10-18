@@ -67,27 +67,16 @@ namespace SaludIntegral.App.Persistencia
                 return _appContext.Pacientes
                 .Where(p => p.Identification.Contains(name));
             }
-
-
-
-
-        Locations IRepository_Patient.AddLocationsInPatient(int idPaciente, int idSede)
+         IEnumerable<Patient> IRepository_Patient.GetPatientLocation(int locacion)
         {
-            var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == idPaciente);
-            if (pacienteEncontrado != null)
-            {
-                var sedeEncontrada = _appContext.Sedes.FirstOrDefault(m => m.Id == idSede);
-                if (sedeEncontrada != null)
-                {
-                    pacienteEncontrado.Location = sedeEncontrada;
-                    _appContext.SaveChanges();
-                }
-                return sedeEncontrada;
-            }
-            return null;
-
+            return _appContext.Pacientes
+                        .Where(p => p.Location ==(Locations)locacion)
+                        .ToList();
         }
 
+
+
+        
 
 
 

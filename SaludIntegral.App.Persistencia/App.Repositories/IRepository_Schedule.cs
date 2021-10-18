@@ -17,7 +17,7 @@ namespace SaludIntegral.App.Persistencia
      
      Schedule GetDate(int Id_Date);
 
-    Locations AddLocationsInSchedule(int idCita, int idSede);
+    
 
      Medic AddMedicInSchedule(int idCita, int idMedic);
 

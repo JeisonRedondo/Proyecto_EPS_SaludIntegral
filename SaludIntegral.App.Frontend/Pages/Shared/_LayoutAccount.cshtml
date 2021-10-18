@@ -38,7 +38,7 @@
         </nav>
     </header><!-- End header-->
 
-    @*<div class="wrapper">
+    <div class="wrapper">
         <!-- Sidebar -->
         <nav id="sidebar">
             <div class="sidebar-header" id="sidebar-header">
@@ -52,7 +52,7 @@
                 <li>
                     <div class="container-component-menu">
                         @*<img src="Images4Site/cita-icono.png" width="32px" height="32px" alt="Confirm appointment" title="Confirm appointment">*@
-                        @*<a asp-page="/DoctorAppointment">Appointments</a>
+                        <a asp-page="/DoctorAppointment">Appointments</a>
                     </div>
                 </li>
                 <li text-aling="center">
@@ -71,7 +71,7 @@
                         <button type="button" id="sidebarCollapse" class="btn btn-info">
                             @*<i class="fas fa-align-left"></i>
                             <span>MENU</span>*@
-                            @*<span><img src="Images4Site/menu.png" width="32px" height="32px" alt="Menu" title="Menu"></span>
+                            <span><img src="Images4Site/menu.png" width="32px" height="32px" alt="Menu" title="Menu"></span>
                         </button>
                     </div>
                     <br><br></br></br>
@@ -101,14 +101,19 @@
                 </div>
             </nav>
         </div>
-    </div>*@
-
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-
+    </div>
+@*
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+*@
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2021 - SaludIntegral - Developer Jacks <a asp-area="" asp-page="/Privacy">Privacy</a>

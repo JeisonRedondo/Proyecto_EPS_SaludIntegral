@@ -4,22 +4,37 @@
 @model SaludIntegral.App.Frontend.Pages.showPatientsModel
 @{
 }
-<h1>Listado de pacientes</h1>
+<h1>Lista de pacientes</h1>
 <table class="table table-striped">
-    @foreach(var paciente in Model.patients)
-    {
+    <thead>
+        <tr>
+            
+            <th scope="col">Names</th>
+            <th scope="col">Identification</th>
+            <th scope="col">Gender</th>
+            <th scope="col">EPS</th>
+                        
+            <th colspan="2" scope="col">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var paciente in Model.patients)
+        {
         <tr>
             <td>@paciente.Names</td>
             <td>@paciente.Identification</td>
             <td>@paciente.Gender</td>
             <td>@paciente.EPS</td>
-            <td><a class="btn btn-secondary" asp-page="/Patients/seeMyAccountP" asp-route-id="@paciente.Id">Ver mi Cuenta</a></td>
+            <!--<td><a class="btn btn-secondary" asp-page="/Patients/seeMyAccountP" asp-route-id="@paciente.Id">Ver mi Cuenta</a></td>-->
             <td><a class="btn btn-secondary" asp-page="/Patients/editPatient" asp-route-id="@paciente.Id">Editar</a></td>
-        </tr>
-         <tbody>
-        
+        </tr> 
+    
+        }
     </tbody>
+<<<<<<< HEAD
     }
+=======
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
 ﻿@page
 @using SaludIntegral.App.Dominio

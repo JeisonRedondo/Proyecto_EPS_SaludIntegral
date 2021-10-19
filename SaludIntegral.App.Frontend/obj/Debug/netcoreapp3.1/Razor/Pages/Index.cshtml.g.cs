@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\Pages\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "10ed24cf055862c94b5ce974458c3b055d283e2b"
+=======
+#pragma checksum "C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\Pages\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "10ed24cf055862c94b5ce974458c3b055d283e2b"
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
 #pragma checksum "C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\Pages\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "e10364cf51a49aef06ed69955dbdd7fae5c4ccfd"
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c

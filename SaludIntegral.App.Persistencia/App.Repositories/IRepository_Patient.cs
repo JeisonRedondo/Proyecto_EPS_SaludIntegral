@@ -21,8 +21,8 @@ namespace SaludIntegral.App.Persistencia
         IEnumerable<Patient> GetPatientLocation(int locacion);
 
         IEnumerable<Patient> SearchPatiens(string name);
-
+        IEnumerable<Patient> SearchPatiensbyEmail(string Email);
         
-    
+        Patient SearchPatiensbyEmail2(string Email);
     }
 }

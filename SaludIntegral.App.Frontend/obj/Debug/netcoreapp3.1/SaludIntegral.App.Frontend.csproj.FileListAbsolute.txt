@@ -200,6 +200,7 @@ C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\S
 C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.csproj.CopyComplete
 C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.genruntimeconfig.cache
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\bin\Debug\netcoreapp3.1\SaludIntegral.App.Frontend.exe
@@ -304,5 +305,9 @@ C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\UpDatePatientAccount.cshtml.g.cs
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LayoutAccount.cshtml.g.cs
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LayoutPatientAccount.cshtml.g.cs
+=======
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Patients\InitialPanelPatient.cshtml.g.cs
+C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Patients\UpDatePatientAccount.cshtml.g.cs
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c

@@ -5,6 +5,114 @@
 @{
     ViewData["Title"] = "Edit Patient Account page";
 }
+<div style="width: 92%; margin: 0 auto;">
+    <br></br>
+    <button>
+        <a href="/Administrator/showPatients">Go Back</a>
+    </button>
+    <br></br>
+    </div>
+<style>
+            .round_table {
+                border-collapse: separate;
+                border-spacing: 10;
+                border: 0px solid grey;
+                border-radius: 15px;
+                -moz-border-radius: 20px;
+                padding: 2px;
+                -webkit-border-radius: 10px;
+            }
+</style>
+<form method="post">
+
+    
+    <table class="round_table" align="Center">
+             
+            <tr>
+                <td colspan="3" style="text-align:center">
+                    <p>Fill out the form to UpDate the account in the system </p>
+                </td>
+            </tr>
+            <div class="form-group">
+            <!--<label asp-for="patient.Id".Id"></label>-->
+            <!--<input asp-for="patient.Id" class="form-control" readonly>-->
+            <!--<p><input asp-for="patient.Id" type="text" size="30" maxlength="30"  name="Id" readonly></p></p>-->
+            </div>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>Complete Name</h6>
+                    <p><input asp-for="patient.Names" type="text" size="30" maxlength="30" placeholder="--Type Your Complete Name--" name="Names"></p></p>
+                    <span asp-validation-for="patient.Names" class="text-danger"></span>
+                </td>
+                <td>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+                <td style="text-align:left">
+                    <p><h6>ID Number</h6>
+                    <p><input asp-for="patient.Identification" type="text" size="30" maxlength="30" placeholder="--Type Your ID Number--" name="ID_Number" readonly></p></p>
+                    <span asp-validation-for="patient.Identification" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>Gender</h6>
+                    <p><input asp-for="patient.Gender" type="text" size="30" maxlength="30" placeholder="--Select Your Gender--" name="Gender"></p></p>
+                </td>
+                <td>  
+                </td>
+                <td style="text-align:left">
+                    <p><h6>Movíl Number</h6>
+                    <p><input asp-for="patient.Phone_number" type="text" size="30" maxlength="30" placeholder="--Type Your Movíl Number--" name="Phone_number"></p></p>
+                    <span asp-validation-for="patient.Phone_number" class="text-danger"></span>               
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>Email</h6>
+                    <p><input asp-for="patient.Email" type="text" size="30" maxlength="30" placeholder="--Type Your Email--" name="Email"></p></p>
+                    <span asp-validation-for="patient.Email" class="text-danger"></span>
+                </td>
+                <td>  
+                </td>
+                <td style="text-align:left">
+                    <p><h6>Date Of Birth</h6>
+                    <p><input asp-for="patient.DateOfBirth" type="text" size="30" maxlength="30" placeholder="--Select Your Date of Birth--" name="DateOfBirth"></p></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>EPS</h6>
+                    <p><input asp-for="patient.EPS" type="text" size="30" maxlength="30" placeholder="--Type Your Medic Number Registration--" name="EPS"></p></p>
+                </td>
+                <td>  
+                </td>
+                <td style="text-align:left">
+                    <p><h6>Password</h6>
+                    <p><input asp-for="patient.Password" type="text" size="30" maxlength="30" placeholder="--Select Your Date of Birth--" name="Password"></p></p>
+                    <span asp-validation-for="patient.Password" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>Location</h6>
+                    <p><select asp-for="patient.Location" asp-items="Html.GetEnumSelectList<Locations>()" class="form-control"  placeholder="--Select Your Location--" name="Location"></select></p>
+                </td>
+                
+            </tr>
+            <tr><td><p></p></td></tr>
+            <tr>
+                <td colspan="3" style="text-align:center">
+                    <p>
+                        <button type="submit" class="btn btn-primary">Editar Cuenta</button>
+                    </p>
+                </td>
+            </tr>
+            <tr><td><p></p></td></tr>
+        </table>
+</div>
+    </form>
+@* <div class="container-fluid d-block border shadow p-3 mb-5 bg-white rounded text-center" style="height: 561px; width: 1020px">
+
 <h1>Editar mi cuenta  paciente</h1>
 <form method="post">
     <div class="form-group">
@@ -58,6 +166,10 @@
     </div>
     <button type="submit" class="btn btn-primary">Editar mi cuenta paciente</button>
 </form>
+<<<<<<< HEAD
+=======
+<a class="btn btn-secondary" asp-page="./Index1">Volver</a> *@
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
 ﻿@page
 @using SaludIntegral.App.Dominio
@@ -118,5 +230,10 @@
     </div>
     <button type="submit" class="btn btn-primary">Editar mi cuenta paciente</button>
 </form>
+<<<<<<< HEAD
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
 <a class="btn btn-secondary" asp-page="./Index1">Volver</a>
+=======
+<a class="btn btn-secondary" asp-page="./Index1">Volver</a>
+>>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170

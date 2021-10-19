@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\Pages\Shared\_Layout.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "71d0f91d1eba96859c2528485838616d2495f0f4"
+=======
+#pragma checksum "C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\Pages\Shared\_Layout.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "ec7f4efedba9b78d54017ac3b5ae29fcec454166"
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
 #pragma checksum "C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\Pages\Shared\_Layout.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "6800dd21b5e49bab070aba5b680c5bb9d2f42d7a"
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
@@ -28,7 +32,11 @@ using SaludIntegral.App.Frontend;
 #line hidden
 #nullable disable
 <<<<<<< HEAD
+<<<<<<< HEAD
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"71d0f91d1eba96859c2528485838616d2495f0f4", @"/Pages/Shared/_Layout.cshtml")]
+=======
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ec7f4efedba9b78d54017ac3b5ae29fcec454166", @"/Pages/Shared/_Layout.cshtml")]
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6800dd21b5e49bab070aba5b680c5bb9d2f42d7a", @"/Pages/Shared/_Layout.cshtml")]
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
@@ -54,6 +62,14 @@ using SaludIntegral.App.Frontend;
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_15 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", "~/js/site.js", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
 =======
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_10 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-page", "/Patients/CreatePatientAccount", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+<<<<<<< HEAD
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_11 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-page", "/Administrator/IndexA", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_12 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-page", "/Login", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_13 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("title", new global::Microsoft.AspNetCore.Html.HtmlString("Login or Signup"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_14 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", new global::Microsoft.AspNetCore.Html.HtmlString("~/lib/jquery/dist/jquery.min.js"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_15 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", new global::Microsoft.AspNetCore.Html.HtmlString("~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_16 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", "~/js/site.js", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+=======
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_11 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-page", "", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_12 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-page", "/Administrator/IndexA", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_13 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-page", "/Login", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -92,12 +108,17 @@ using SaludIntegral.App.Frontend;
         {
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "71d0f91d1eba96859c2528485838616d2495f0f48893", async() => {
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>");
 #nullable restore
 #line 6 "C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\Pages\Shared\_Layout.cshtml"
 =======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec7f4efedba9b78d54017ac3b5ae29fcec4541669213", async() => {
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
+=======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6800dd21b5e49bab070aba5b680c5bb9d2f42d7a9507", async() => {
+>>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>");
 #nullable restore
 #line 6 "C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\Pages\Shared\_Layout.cshtml"
@@ -109,7 +130,11 @@ using SaludIntegral.App.Frontend;
 #nullable disable
                 WriteLiteral(" - Salud Integral</title>\r\n    ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "71d0f91d1eba96859c2528485838616d2495f0f49546", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ec7f4efedba9b78d54017ac3b5ae29fcec4541669864", async() => {
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6800dd21b5e49bab070aba5b680c5bb9d2f42d7a10158", async() => {
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
@@ -128,7 +153,11 @@ using SaludIntegral.App.Frontend;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "71d0f91d1eba96859c2528485838616d2495f0f410724", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ec7f4efedba9b78d54017ac3b5ae29fcec45416611042", async() => {
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6800dd21b5e49bab070aba5b680c5bb9d2f42d7a11337", async() => {
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
@@ -159,9 +188,15 @@ using SaludIntegral.App.Frontend;
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "71d0f91d1eba96859c2528485838616d2495f0f412607", async() => {
                 WriteLiteral("\r\n    <header>\r\n        <nav class=\"navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white menu-flex\">\r\n            <div class=\"container\">\r\n                ");
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "71d0f91d1eba96859c2528485838616d2495f0f413043", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec7f4efedba9b78d54017ac3b5ae29fcec45416612925", async() => {
+                WriteLiteral("\r\n    <header>\r\n        <nav class=\"navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white menu-flex\">\r\n            <div class=\"container\">\r\n                ");
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec7f4efedba9b78d54017ac3b5ae29fcec45416613361", async() => {
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6800dd21b5e49bab070aba5b680c5bb9d2f42d7a13220", async() => {
                 WriteLiteral("\r\n    <header>\r\n        <nav class=\"navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white menu-flex\">\r\n            <div class=\"container\">\r\n                ");
@@ -194,7 +229,11 @@ using SaludIntegral.App.Frontend;
                         <li class=""nav-item"" style=""padding-left: 15px;"">
                             ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "71d0f91d1eba96859c2528485838616d2495f0f415375", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec7f4efedba9b78d54017ac3b5ae29fcec45416615693", async() => {
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6800dd21b5e49bab070aba5b680c5bb9d2f42d7a15988", async() => {
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
@@ -217,7 +256,11 @@ using SaludIntegral.App.Frontend;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        </li>\r\n                        <li class=\"nav-item\" style=\"padding-left: 15px;\">\r\n                            ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "71d0f91d1eba96859c2528485838616d2495f0f417028", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec7f4efedba9b78d54017ac3b5ae29fcec45416617346", async() => {
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6800dd21b5e49bab070aba5b680c5bb9d2f42d7a17641", async() => {
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
@@ -240,7 +283,11 @@ using SaludIntegral.App.Frontend;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        </li>\r\n                        <li class=\"nav-item\" style=\"padding-left: 15px;\">\r\n                            ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "71d0f91d1eba96859c2528485838616d2495f0f418681", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec7f4efedba9b78d54017ac3b5ae29fcec45416618999", async() => {
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6800dd21b5e49bab070aba5b680c5bb9d2f42d7a19294", async() => {
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
@@ -267,6 +314,9 @@ using SaludIntegral.App.Frontend;
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "71d0f91d1eba96859c2528485838616d2495f0f420372", async() => {
 =======
                 WriteLiteral("\r\n                        </li>\r\n                         <li class=\"nav-item\" style=\"padding-left: 15px;\">\r\n                            ");
+<<<<<<< HEAD
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec7f4efedba9b78d54017ac3b5ae29fcec45416620656", async() => {
+=======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6800dd21b5e49bab070aba5b680c5bb9d2f42d7a20951", async() => {
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
                     WriteLiteral("Signup");
@@ -293,7 +343,11 @@ using SaludIntegral.App.Frontend;
                     WriteLiteral("Admin");
 =======
                 WriteLiteral("\r\n                        </li>\r\n                        <li class=\"nav-item\" style=\"padding-left: 15px;\">\r\n                            ");
+<<<<<<< HEAD
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec7f4efedba9b78d54017ac3b5ae29fcec45416622311", async() => {
+=======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6800dd21b5e49bab070aba5b680c5bb9d2f42d7a22606", async() => {
+>>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
                     WriteLiteral("Create Account Patient");
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
                 }
@@ -314,8 +368,13 @@ using SaludIntegral.App.Frontend;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
 <<<<<<< HEAD
                 WriteLiteral("\r\n                        </li>\r\n                        <li class=\"nav-item\" style=\"padding-left: 15px;\">\r\n                            ");
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "71d0f91d1eba96859c2528485838616d2495f0f423718", async() => {
                     WriteLiteral("\r\n                                <button class=\"btn btn-primary\">\r\n                                    Login\r\n                                </button>\r\n                            ");
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec7f4efedba9b78d54017ac3b5ae29fcec45416623984", async() => {
+                    WriteLiteral("Admin");
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
                 WriteLiteral("\r\n                        </li>\r\n                         <li class=\"nav-item\" style=\"padding-left: 15px;\">\r\n                            ");
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6800dd21b5e49bab070aba5b680c5bb9d2f42d7a24280", async() => {
@@ -343,12 +402,22 @@ using SaludIntegral.App.Frontend;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        </li>\r\n                        <li class=\"nav-item\" style=\"padding-left: 15px;\">\r\n                            ");
+<<<<<<< HEAD
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec7f4efedba9b78d54017ac3b5ae29fcec45416625640", async() => {
+                    WriteLiteral("\r\n                                <button class=\"btn btn-primary\">\r\n                                    Login/Sign Up\r\n                                </button>\r\n                            ");
+=======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6800dd21b5e49bab070aba5b680c5bb9d2f42d7a25945", async() => {
                     WriteLiteral("Admin");
+>>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper);
+<<<<<<< HEAD
+                __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.Page = (string)__tagHelperAttribute_12.Value;
+                __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_12);
+                __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_13);
+=======
                 __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_6);
                 __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.Area = (string)__tagHelperAttribute_4.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_4);
@@ -382,7 +451,11 @@ using SaludIntegral.App.Frontend;
                 WriteLiteral("\r\n                        </li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n        </nav>\r\n    </header>\r\n    <div class=\"container\">\r\n        <main role=\"main\" class=\"p-3\" style=\"margin: 145px 0;\">\r\n            ");
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 58 "C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\Pages\Shared\_Layout.cshtml"
+=======
+#line 55 "C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\Pages\Shared\_Layout.cshtml"
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
 #line 58 "C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\Pages\Shared\_Layout.cshtml"
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
@@ -393,7 +466,11 @@ using SaludIntegral.App.Frontend;
 #nullable disable
                 WriteLiteral("\r\n        </main>\r\n    </div>\r\n\r\n    <footer class=\"border-top footer text-muted text-center mt-4\" style=\"padding: 18px 0;\">\r\n        <div class=\"container\">\r\n            &copy; 2021 - Appointment management and scheduling system | Salud Integral - ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "71d0f91d1eba96859c2528485838616d2495f0f425972", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec7f4efedba9b78d54017ac3b5ae29fcec45416627900", async() => {
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6800dd21b5e49bab070aba5b680c5bb9d2f42d7a29861", async() => {
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
@@ -406,6 +483,7 @@ using SaludIntegral.App.Frontend;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_4);
                 __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.Page = (string)__tagHelperAttribute_8.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_8);
+<<<<<<< HEAD
                 await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
                 if (!__tagHelperExecutionContext.Output.IsContentModified)
                 {
@@ -415,8 +493,71 @@ using SaludIntegral.App.Frontend;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("<span>    |   </span>");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "71d0f91d1eba96859c2528485838616d2495f0f427416", async() => {
 =======
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec7f4efedba9b78d54017ac3b5ae29fcec45416629344", async() => {
+                    WriteLiteral("Help");
+                }
+                );
+                __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper>();
+                __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper);
+                __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.Area = (string)__tagHelperAttribute_4.Value;
+                __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_4);
+                __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.Page = (string)__tagHelperAttribute_7.Value;
+                __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_7);
+                await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
+                if (!__tagHelperExecutionContext.Output.IsContentModified)
+                {
+                    await __tagHelperExecutionContext.SetOutputContentAsync();
+                }
+                Write(__tagHelperExecutionContext.Output);
+                __tagHelperExecutionContext = __tagHelperScopeManager.End();
+                WriteLiteral("<span>    |   </span>");
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec7f4efedba9b78d54017ac3b5ae29fcec45416630785", async() => {
+                    WriteLiteral("Sign Up");
+                }
+                );
+                __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper>();
+                __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper);
+                __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.Area = (string)__tagHelperAttribute_4.Value;
+                __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_4);
+                __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.Page = (string)__tagHelperAttribute_9.Value;
+                __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_9);
+                await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
+                if (!__tagHelperExecutionContext.Output.IsContentModified)
+                {
+                    await __tagHelperExecutionContext.SetOutputContentAsync();
+                }
+                Write(__tagHelperExecutionContext.Output);
+                __tagHelperExecutionContext = __tagHelperScopeManager.End();
+                WriteLiteral("<span>    |   </span>");
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec7f4efedba9b78d54017ac3b5ae29fcec45416632229", async() => {
+                    WriteLiteral("Login");
+                }
+                );
+                __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper>();
+                __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper);
+                __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.Area = (string)__tagHelperAttribute_4.Value;
+                __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_4);
+                __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.Page = (string)__tagHelperAttribute_5.Value;
+                __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_5);
+=======
+>>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
+                await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
+                if (!__tagHelperExecutionContext.Output.IsContentModified)
+                {
+                    await __tagHelperExecutionContext.SetOutputContentAsync();
+                }
+                Write(__tagHelperExecutionContext.Output);
+                __tagHelperExecutionContext = __tagHelperScopeManager.End();
+<<<<<<< HEAD
+                WriteLiteral("\r\n        </div>\r\n    </footer>\r\n\r\n    ");
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec7f4efedba9b78d54017ac3b5ae29fcec45416633697", async() => {
+=======
+                WriteLiteral("<span>    |   </span>");
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6800dd21b5e49bab070aba5b680c5bb9d2f42d7a31305", async() => {
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
                     WriteLiteral("Help");
@@ -500,7 +641,11 @@ using SaludIntegral.App.Frontend;
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_13);
+=======
+                __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_14);
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
                 __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_15);
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
@@ -513,7 +658,11 @@ using SaludIntegral.App.Frontend;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "71d0f91d1eba96859c2528485838616d2495f0f432872", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec7f4efedba9b78d54017ac3b5ae29fcec45416634798", async() => {
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6800dd21b5e49bab070aba5b680c5bb9d2f42d7a36759", async() => {
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
@@ -522,7 +671,11 @@ using SaludIntegral.App.Frontend;
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_14);
+=======
+                __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_15);
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
                 __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_16);
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
@@ -535,7 +688,11 @@ using SaludIntegral.App.Frontend;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "71d0f91d1eba96859c2528485838616d2495f0f433973", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec7f4efedba9b78d54017ac3b5ae29fcec45416635899", async() => {
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6800dd21b5e49bab070aba5b680c5bb9d2f42d7a37860", async() => {
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
@@ -546,10 +703,17 @@ using SaludIntegral.App.Frontend;
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.Src = (string)__tagHelperAttribute_15.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_15);
 #nullable restore
 #line 70 "C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\Pages\Shared\_Layout.cshtml"
+=======
+                __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.Src = (string)__tagHelperAttribute_16.Value;
+                __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_16);
+#nullable restore
+#line 67 "C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\Pages\Shared\_Layout.cshtml"
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.Src = (string)__tagHelperAttribute_17.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_17);
@@ -572,7 +736,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.AppendVersion = true;
                 WriteLiteral("\r\n\r\n    ");
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 72 "C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Frontend\Pages\Shared\_Layout.cshtml"
+=======
+#line 69 "C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\Pages\Shared\_Layout.cshtml"
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
 =======
 #line 72 "C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Frontend\Pages\Shared\_Layout.cshtml"
 >>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c

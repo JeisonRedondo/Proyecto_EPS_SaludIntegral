@@ -11,7 +11,6 @@ namespace SaludIntegral.App.Frontend.Pages
 {
     public class LoginModel : PageModel
     {
-<<<<<<< HEAD
         private readonly IRepository_Patient _repoPatient;
         
         public Patient paciente { get; set; }
@@ -25,11 +24,6 @@ namespace SaludIntegral.App.Frontend.Pages
         }
         
         public IActionResult OnPost( string EmailE, string PasswordE)
-=======
-       /*  private readonly IRepository_Patient _repoPatient;
-        public IEnumerable<Patient> patients {get; set;} */
-        public void OnGet()
->>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
         {
             
             if (String.IsNullOrEmpty(EmailE) & String.IsNullOrEmpty(PasswordE))

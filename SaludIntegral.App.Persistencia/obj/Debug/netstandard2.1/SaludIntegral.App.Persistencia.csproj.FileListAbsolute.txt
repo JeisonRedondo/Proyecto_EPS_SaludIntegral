@@ -34,6 +34,7 @@ C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Persistencia\bin\Debug\netstandard
 C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Persistencia\bin\Debug\netstandard2.1\SaludIntegral.App.Dominio.dll
 C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Persistencia\bin\Debug\netstandard2.1\SaludIntegral.App.Dominio.pdb
 C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.csproj.AssemblyReference.cache
+<<<<<<< HEAD
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\bin\Debug\netstandard2.1\SaludIntegral.App.Persistencia.deps.json
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\bin\Debug\netstandard2.1\SaludIntegral.App.Persistencia.dll
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\bin\Debug\netstandard2.1\SaludIntegral.App.Persistencia.pdb
@@ -46,3 +47,5 @@ C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\obj\Debug\netstanda
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.csproj.CoreCompileInputs.cache
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.dll
 C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.pdb
+=======
+>>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c

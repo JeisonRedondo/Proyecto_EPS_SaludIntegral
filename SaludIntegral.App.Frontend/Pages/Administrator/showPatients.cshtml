@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿@page
 @using SaludIntegral.App.Dominio
 @model SaludIntegral.App.Frontend.Pages.showPatientsModel
@@ -19,4 +20,27 @@
         
     </tbody>
     }
+=======
+﻿@page
+@using SaludIntegral.App.Dominio
+@model SaludIntegral.App.Frontend.Pages.showPatientsModel
+@{
+}
+<h1>Listado de pacientes</h1>
+<table class="table table-striped">
+    @foreach(var paciente in Model.patients)
+    {
+        <tr>
+            <td>@paciente.Names</td>
+            <td>@paciente.Identification</td>
+            <td>@paciente.Gender</td>
+            <td>@paciente.EPS</td>
+            <td><a class="btn btn-secondary" asp-page="/Patients/seeMyAccountP" asp-route-id="@paciente.Id">Ver mi Cuenta</a></td>
+            <td><a class="btn btn-secondary" asp-page="/Patients/editPatient" asp-route-id="@paciente.Id">Editar</a></td>
+        </tr>
+         <tbody>
+        
+    </tbody>
+    }
+>>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
 </table>

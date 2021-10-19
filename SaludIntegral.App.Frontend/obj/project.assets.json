@@ -5742,7 +5742,12 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\admin\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\draku\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+>>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -5755,6 +5760,10 @@
       "outputPath": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+<<<<<<< HEAD
+=======
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+>>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [

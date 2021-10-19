@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "ZgibYq9WrM3Gxxwaox8Y4g6YfKCPJeJIR6y+EOBVofRWTM3lvUqx1zgMtxyhV1bhilLSiXShKNvIvKNKKy7vQQ==",
+=======
+  "dgSpecHash": "qhbozu1ZtcGUpPj7+XrrVAh6b5gCg2oSX1F+NO89fkJ9pxey7vNpFVERY2oQYmFMjdzeDnKIQM1csWR8xwAk+Q==",
+>>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
   "success": true,
   "projectFilePath": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Frontend\\SaludIntegral.App.Frontend.csproj",
   "expectedPackageFiles": [

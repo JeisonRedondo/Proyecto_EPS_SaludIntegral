@@ -5,24 +5,24 @@
 }
 <div class="container-fluid d-flex justify-content-center align-middle" style="height: 560px;">
     <div class="d-flex border shadow p-3 mb-5 bg-white rounded" style=" height: 450px; width: 850px; margin: auto 0;">
-        <img src="/Resources/BG-Login.png" alt="Login to your account">
+        <img src="/Resource/BG-Login.png" alt="Login to your account">
         <div class="d-block align-middle pt-4" style="margin: 0 auto;">
             <h3 class="text-center">Welcome!</h3>
             <p class="text-center">Enter your login information to access.</p>
-            <form>
+            <form method=Post>
                 <div class="form-group">
-                    <label for="email" >Email</label>
-                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="--mail@domain.com--">
-                    <small id="emailHelp" class="form-text text-muted">Remember to use the correct email.</small>
+                    <label for="EmailE" >E_mail</label>
+                    <input asp-for="EmailE" type="EmailE" class="form-control" id="EmailE" aria-describedby="emailHelp" placeholder="--mail@domain.com--">
+                    <small id="EmailE" class="form-text text-muted">Remember to use the correct email.</small>
                     <!--<span asp-validation-for="Paciente.Email" class="text-danger"></span>-->
                 </div>
                 <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" class="form-control" id="password" placeholder="--Your password--">
+                    <label for="PasswordE">Password</label>
+                    <input asp-for="PasswordE" type="PasswordE" class="form-control" id="PasswordE" placeholder="--Your password--">
                     <!--<span asp-validation-for="Paciente.Password" class="text-danger"></span>-->
                 </div>
                  <button type="submit" class="btn btn-primary btn-block">Login</button>
-                <small id="createAccount" class="form-text text-muted">Don't have an account? <a asp-page="/Index">Create it now.</a></small>
+                <small id="createAccount" class="form-text text-muted">Don't have an account? <a asp-page="/Patients/CreatePatientAccount">Create it now.</a></small>
             </form>
         </div>
     </div>

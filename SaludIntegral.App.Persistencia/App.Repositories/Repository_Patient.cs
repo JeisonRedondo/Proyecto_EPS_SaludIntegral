@@ -72,6 +72,7 @@ namespace SaludIntegral.App.Persistencia
             return _appContext.Pacientes
                         .Where(p => p.Location ==(Locations)locacion)
                         .ToList();
+<<<<<<< HEAD
         }
         IEnumerable<Patient> IRepository_Patient.SearchPatiensbyEmail(string Email)
             {
@@ -84,6 +85,8 @@ namespace SaludIntegral.App.Persistencia
 
             
             return pacienteEncontrado;
+=======
+>>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
         }
 
 

@@ -11,6 +11,7 @@
             <p class="text-center">Enter your login information to access.</p>
             <form method=Post>
                 <div class="form-group">
+<<<<<<< HEAD
                     <label for="EmailE" >E_mail</label>
                     <input asp-for="EmailE" type="EmailE" class="form-control" id="EmailE" aria-describedby="emailHelp" placeholder="--mail@domain.com--">
                     <small id="EmailE" class="form-text text-muted">Remember to use the correct email.</small>
@@ -19,6 +20,16 @@
                 <div class="form-group">
                     <label for="PasswordE">Password</label>
                     <input asp-for="PasswordE" type="PasswordE" class="form-control" id="PasswordE" placeholder="--Your password--">
+=======
+                    <label for="email" >Email</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="--mail@domain.com--">
+                    <small id="emailHelp" class="form-text text-muted">Remember to use the correct email.</small>
+                    <!--<span asp-validation-for="Paciente.Email" class="text-danger"></span>-->
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="--Your password--">
+>>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
                     <!--<span asp-validation-for="Paciente.Password" class="text-danger"></span>-->
                 </div>
                  <button type="submit" class="btn btn-primary btn-block">Login</button>

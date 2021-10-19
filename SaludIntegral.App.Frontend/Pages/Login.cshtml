@@ -5,7 +5,7 @@
 }
 <div class="container-fluid d-flex justify-content-center align-middle" style="height: 560px;">
     <div class="d-flex border shadow p-3 mb-5 bg-white rounded" style=" height: 450px; width: 850px; margin: auto 0;">
-        <img src="/Resources/BG-Login.png" alt="Login to your account">
+        <img src="/Resource/BG-Login.png" alt="Login to your account">
         <div class="d-block align-middle pt-4" style="margin: 0 auto;">
             <h3 class="text-center">Welcome!</h3>
             <p class="text-center">Enter your login information to access.</p>
@@ -21,8 +21,14 @@
                     <input type="password" class="form-control" id="password" placeholder="--Your password--">
                     <!--<span asp-validation-for="Paciente.Password" class="text-danger"></span>-->
                 </div>
-                 <button type="submit" class="btn btn-primary btn-block">Login</button>
-                <small id="createAccount" class="form-text text-muted">Don't have an account? <a asp-page="/Index">Create it now.</a></small>
+                 @*<button type="submit" class="btn btn-primary btn-block">Login</button>*@
+                 <button>
+                    <a href="/InitialPanelDoctor">Doctor Access</a> @*Validar el tipo de cuenta acorde con los datos ingresados*@
+                </button>
+                <button>
+                    <a href="/InitialPanelPatient">Patient Access</a> 
+                </button>
+                <small id="createAccount" class="form-text text-muted">Don't have an account? <a asp-page="/SignUp">Create it now.</a></small>
             </form>
         </div>
     </div>

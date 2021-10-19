@@ -34,3 +34,15 @@ C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Persistencia\bin\Debug\netstandard
 C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Persistencia\bin\Debug\netstandard2.1\SaludIntegral.App.Dominio.dll
 C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Persistencia\bin\Debug\netstandard2.1\SaludIntegral.App.Dominio.pdb
 C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.csproj.AssemblyReference.cache
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\bin\Debug\netstandard2.1\SaludIntegral.App.Persistencia.deps.json
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\bin\Debug\netstandard2.1\SaludIntegral.App.Persistencia.dll
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\bin\Debug\netstandard2.1\SaludIntegral.App.Persistencia.pdb
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\bin\Debug\netstandard2.1\SaludIntegral.App.Dominio.dll
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\bin\Debug\netstandard2.1\SaludIntegral.App.Dominio.pdb
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.csproj.AssemblyReference.cache
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.AssemblyInfoInputs.cache
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.AssemblyInfo.cs
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.dll
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Persistencia\obj\Debug\netstandard2.1\SaludIntegral.App.Persistencia.pdb

@@ -6,15 +6,27 @@
 <div class="container-fluid d-flex justify-content-center align-middle" style="height: 560px;">
     <div class="d-block border shadow p-3 mb-5 bg-white rounded text-center" style=" height: 510px; width: 470px; margin: auto;">
         <h2 style="margin: 0 auto; padding-top: 25px">Choose your account type</h2>
-        <div class="d-flex pt-4 pb-3">
-            <div class="d-block">
-                <input type="checkbox" id="doctor" class="checkbox-account" name="doctor" value="yes"><img src="/Resource/doctor.png" width="180px" height="180px" alt="Doctor"><strong>Doctor</strong>
-                 <p @*style="text-align:center"*@>Doctor</p></a>
+        <div class="d-flex pt-4 pb-3" style="text-align:center" align="center">
+            <table style="text-align:center" align="center">
+            <tr>
+                <td style="text-align:center">
+                    <a href="/Medics/CreateDoctorAccount"><img src="Images4Site/doctor.png" width="150" alt="Logo_Doctor" height="150"/>
+                    <p @*style="text-align:center"*@>Doctor</p></a> 
+                </td>
+                <td style="text-align:center">
+                    <a href="/Patients/CreatePatientAccount"><img src="Images4Site/paciente.png" width="150" alt="Logo_Paciente" height="150"/>
+                    <p @*style="text-align:center"*@>Patient</p></a> 
+                </td>
+            </tr>
+            </table>
+            @*<div class="d-block">
+                input type="checkbox" id="doctor" class="checkbox-account" name="doctor" value="yes"><img src="/Resource/doctor.png" width="180px" height="180px" alt="Doctor"><strong>Doctor</strong>*@
+                @*<pstyle="text-align:center">Doctor</p></a>
             </div>
             <div class="d-block">
-                <input type="checkbox" id="patient" class="checkbox-account" name="patient" value="yes"><img src="/Resource/paciente.png" width="180px" height="180px" alt="Patient"><strong>Patient</strong>
-                <p @*style="text-align:center"*@>Patient</p></a>
-            </div>
+                @*<input type="checkbox" id="patient" class="checkbox-account" name="patient" value="yes"><img src="/Resource/paciente.png" width="180px" height="180px" alt="Patient"><strong>Patient</strong>*@
+                @*<p style="text-align:center">Patient</p></a>
+            </div>*@
         </div>
         <h3>Welcome, <span id="typeAccount">Patient!</span></h3>
         <p>Click on continue and fill all the information to create your new account.</p>

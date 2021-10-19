@@ -1,0 +1,170 @@
+@page
+@model SaludIntegral.App.Frontend.Pages.InitialPanelDoctorModel
+@{
+    Layout = "_LayoutAccount";
+}
+<div class="container-fluid d-block border shadow p-3 mb-5 bg-white rounded text-center" style="height: 561px; width: 1020px">
+
+        <style>
+            .round_table {
+                border-collapse: separate;
+                border-spacing: 10;
+                border: 1px solid lightgrey;
+                border-radius: 15px;
+                -moz-border-radius: 20px;
+                padding: 2px;
+                -webkit-border-radius: 10px;
+            }
+            table {                   
+                border-collapse: separate;
+                border-spacing: 10;
+                border: 1px solid black;        
+                padding: 2px;
+                }
+                    
+                    th {
+                        border-left:orange 1px;
+                        border-top:orange 1px;
+                    }  
+                    th {
+                        background-color: orange;
+                        border-top: none;
+                    }
+        </style>
+        <table class="round_table" align="Center">
+            <tr>
+                <td colspan="7" style="text-align:center">Patient´s Calendar</td>
+            </tr>
+            <tr>
+                <th style="text-align:left"><h6><</h6></th>
+                <th style="text-align:center" colspan="4"><h6>MONDAY</h6></th>
+                <th style="text-align:right"><h6>></h6></th>
+            </tr>
+            <tr>
+                <th></th>
+                @*<th>Hour</th>*@
+                <th style="width:150px;">Name</th>
+                <th style="width:150px;">Id</th>
+                <th style="width:150px;">Patient Type</th>
+                <th style="width:150px;">Date - Time</th>
+                <th style="width:150px;">Status</th>
+            </tr>
+            <tr>
+                <td bgcolor="darkorange"><h6>01 - </h6></td>
+                @*<td bgcolor="GhostWhite"><h6>07:00</h6></td>*@
+                <td bgcolor="lightgrey" name="Name">Jonathan Tajan</td>
+                <td bgcolor="GhostWhite" name="Id">18011906</td>
+                <td bgcolor="lightgrey" name="Patient_Type">EPS</td>
+                <td bgcolor="GhostWhite" name="Date">18/10/21 07:00</td>
+                <td bgcolor="lightgrey" name="Status" align="right">Miss <button><a>Change</a></button></td>
+            </tr>
+            <tr>
+                <td bgcolor="orange"><h6>02 - </h6></td>
+                @*<td bgcolor="azure"><h6>08:00</h6></td>*@
+                <td bgcolor="silver" name="Name">Jose Fiquitiva</td>
+                <td bgcolor="azure" name="Id">123</td> 
+                <td bgcolor="silver" name="Patient_type">Particular</td>
+                <td bgcolor="azure" name="Date">18/10/21 08:00</td>
+                <td bgcolor="silver" name="Status" align="right">Done <button><a>Change</a></button></td>
+            </tr>
+            <tr>
+                <td bgcolor="darkorange"><h6>03 - </h6></td>
+                @*<td bgcolor="GhostWhite"><h6>09:00</h6></td>*@
+                <td bgcolor="lightgrey" name="Name">Juan Camilo</td>
+                <td bgcolor="GhostWhite" name="Id">456</td>
+                <td bgcolor="lightgrey" name="Patient_Type">Particular</td>
+                <td bgcolor="GhostWhite" name="Date">18/10/21 09:00</td>
+                <td bgcolor="lightgrey" name="Status" align="right">Attending <button><a>Change</a></button></td>
+            </tr>
+            <tr>
+                <td bgcolor="orange"><h6>04 - </h6></td>
+                @*<td bgcolor="azure"><h6>10:00</h6></td>*@
+                <td bgcolor="silver" name="Name">Jeison Redondo</td>
+                <td bgcolor="azure" name="Id">789</td> 
+                <td bgcolor="silver" name="Patient_type">EPS</td>
+                <td bgcolor="azure" name="Date">18/10/21 10:00</td>
+                <td bgcolor="silver" name="Status" align="right">Pending <button><a>Change</a></button></td>
+            </tr>
+            <tr>
+                <td bgcolor="darkorange"><h6>05 - </h6></td>
+                @*<td bgcolor="GhostWhite"><h6>11:00</h6></td>*@
+                <td bgcolor="lightgrey" name="Name">Jhon Antonio</td>
+                <td bgcolor="GhostWhite" name="Id">111</td>
+                <td bgcolor="lightgrey" name="Patient_Type">EPS</td>
+                <td bgcolor="GhostWhite" name="Date">18/10/21 11:00</td>
+                <td bgcolor="lightgrey" name="Status" align="right"> Pending <button><a>Change</a></button></td>
+            </tr>
+            <tr>
+                <td bgcolor="orange"><h6>06 - </h6></td>
+                @*<td bgcolor="azure">12:00</td>*@
+                <td bgcolor="silver" name="Name"></td>
+                <td bgcolor="azure" name="Id"></td> 
+                <td bgcolor="silver" name="Patient_type"></td>
+                <td bgcolor="azure" name="Date"></td>
+                <td bgcolor="silver" name="Status" align="right">Empty <button><a>Change</a></button></td>
+            </tr>
+            <tr>
+                <td bgcolor="darkorange"><h6>07 - </h6></td>
+                @*<td bgcolor="azure">13:00</td>*@
+                <td bgcolor="lightgrey" name="Name"></td>
+                <td bgcolor="GhostWhite" name="Id"></td> 
+                <td bgcolor="lightgrey" name="Patient_type"></td>
+                <td bgcolor="GhostWhite" name="Date"></td>
+                <td bgcolor="lightgrey" name="Status" align="right">Empty <button><a>Change</a></button></td>
+            </tr>
+            <tr>
+                <td bgcolor="orange"><h6>08 - </h6></td>
+                @*<td bgcolor="azure">14:00</td>*@
+                <td bgcolor="silver" name="Name"></td>
+                <td bgcolor="azure" name="Id"></td> 
+                <td bgcolor="silver" name="Patient_type"></td>
+                <td bgcolor="azure" name="Date"></td>
+                <td bgcolor="silver" name="Status" align="right">Empty <button><a>Change</a></button></td>
+            </tr>
+            <tr>
+                <td bgcolor="darkorange"><h6>09 - </h6></td>
+                @*<td bgcolor="azure">15:00</td>*@
+                <td bgcolor="lightgrey" name="Name"></td>
+                <td bgcolor="GhostWhite" name="Id"></td> 
+                <td bgcolor="lightgrey" name="Patient_type"></td>
+                <td bgcolor="GhostWhite" name="Date"></td>
+                <td bgcolor="lightgrey" name="Status" align="right">Empty <button><a>Change</a></button></td>
+            </tr>
+            <tr>
+                <td bgcolor="orange"><h6>10 - </h6></td>
+                @*<td bgcolor="azure">16:00</td>*@
+                <td bgcolor="silver" name="Name"></td>
+                <td bgcolor="azure" name="Id"></td> 
+                <td bgcolor="silver" name="Patient_type"></td>
+                <td bgcolor="azure" name="Date"></td>
+                <td bgcolor="silver" name="Status" align="right">Empty <button><a>Change</a></button></td>
+            </tr>
+            <tr>
+                <td bgcolor="darkorange"><h6>11 - </h6></td>
+                @*<td bgcolor="azure">17:00</td>*@
+                <td bgcolor="lightgrey" name="Name"></td>
+                <td bgcolor="GhostWhite" name="Id"></td> 
+                <td bgcolor="lightgrey" name="Patient_type"></td>
+                <td bgcolor="GhostWhite" name="Date"></td>
+                <td bgcolor="lightgrey" name="Status" align="right">Empty <button><a>Change</a></button></td>
+            </tr>
+            <tr>
+                <td bgcolor="orange"><h6>12 - </h6></td>
+                @*<td bgcolor="azure">18:00</td>*@
+                <td bgcolor="silver" name="Name"></td>
+                <td bgcolor="azure" name="Id"></td> 
+                <td bgcolor="silver" name="Patient_type"></td>
+                <td bgcolor="azure" name="Date"></td>
+                <td bgcolor="silver" name="Status" align="right">Empty <button><a>Change</a></button></td>
+            </tr>
+            <tr>
+                <td bgcolor="darkorange"><h6>13 - </h6></td>
+                @*<td bgcolor="azure">19:00</td>*@
+                <td bgcolor="lightgrey" name="Name"></td>
+                <td bgcolor="GhostWhite" name="Id"></td> 
+                <td bgcolor="lightgrey" name="Patient_type"></td>
+                <td bgcolor="GhostWhite" name="Date"></td>
+                <td bgcolor="lightgrey" name="Status" align="right">Empty <button><a>Change</a></button></td>
+            </tr>
+                       
+</div>

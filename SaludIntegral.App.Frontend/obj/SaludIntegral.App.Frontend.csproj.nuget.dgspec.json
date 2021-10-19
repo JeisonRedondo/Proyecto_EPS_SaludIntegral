@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Frontend\\SaludIntegral.App.Frontend.csproj": {}
+    "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Frontend\\SaludIntegral.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj": {
+    "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj",
         "projectName": "SaludIntegral.App.Dominio",
-        "projectPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\draku\\.nuget\\packages\\",
-        "outputPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Dominio\\obj\\",
+        "projectPath": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+<<<<<<< HEAD
+=======
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+>>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\draku\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -85,40 +85,40 @@
         }
       }
     },
-    "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Frontend\\SaludIntegral.App.Frontend.csproj": {
+    "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Frontend\\SaludIntegral.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Frontend\\SaludIntegral.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Frontend\\SaludIntegral.App.Frontend.csproj",
         "projectName": "SaludIntegral.App.Frontend",
-        "projectPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Frontend\\SaludIntegral.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\draku\\.nuget\\packages\\",
-        "outputPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Frontend\\obj\\",
+        "projectPath": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Frontend\\SaludIntegral.App.Frontend.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+<<<<<<< HEAD
+=======
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+>>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\draku\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj": {
-                "projectPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj"
+              "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj": {
+                "projectPath": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj"
               },
-              "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj": {
-                "projectPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj"
+              "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj": {
+                "projectPath": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj"
               }
             }
           }
@@ -142,6 +142,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.20, 3.1.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -154,37 +160,37 @@
         }
       }
     },
-    "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj": {
+    "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj",
         "projectName": "SaludIntegral.App.Persistencia",
-        "projectPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\draku\\.nuget\\packages\\",
-        "outputPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Persistencia\\obj\\",
+        "projectPath": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Persistencia\\SaludIntegral.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+<<<<<<< HEAD
+=======
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+>>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\draku\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj": {
-                "projectPath": "C:\\EPS_DJ\\SaludIntegral.App\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj"
+              "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj": {
+                "projectPath": "C:\\Proyecto_EPS_SaludIntegral\\SaludIntegral.App.Dominio\\SaludIntegral.App.Dominio.csproj"
               }
             }
           }

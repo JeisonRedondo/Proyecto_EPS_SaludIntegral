@@ -21,8 +21,19 @@
                     <input asp-for="PasswordE" type="PasswordE" class="form-control" id="PasswordE" placeholder="--Your password--">
                     <!--<span asp-validation-for="Paciente.Password" class="text-danger"></span>-->
                 </div>
+<<<<<<< HEAD
+                 @*<button type="submit" class="btn btn-primary btn-block">Login</button>*@
+                 <button>
+                    <a href="/InitialPanelDoctor">Doctor Access</a> @*Validar el tipo de cuenta acorde con los datos ingresados*@
+                </button>
+                <button>
+                    <a href="/InitialPanelPatient">Patient Access</a> 
+                </button>
+                <small id="createAccount" class="form-text text-muted">Don't have an account? <a asp-page="/SignUp">Create it now.</a></small>
+=======
                  <button type="submit" class="btn btn-primary btn-block">Login</button>
                 <small id="createAccount" class="form-text text-muted">Don't have an account? <a asp-page="/Patients/CreatePatientAccount">Create it now.</a></small>
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
             </form>
         </div>
     </div>

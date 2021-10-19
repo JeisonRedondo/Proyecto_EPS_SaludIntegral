@@ -1,0 +1,88 @@
+@page
+@model SaludIntegral.App.Frontend.Pages.UpDatePatientAccountModel
+@{
+    Layout = "./Shared/_LayoutPatientAccount.cshtml";
+}
+    <div style="width: 92%; margin: 0 auto;">
+    <br></br>
+    <button>
+        <a href="/InitialPanelPatient">Go Back</a>
+    </button>
+    <br></br>
+    </div>
+
+<div class="container-fluid d-block border shadow p-3 mb-5 bg-white rounded text-center" style="height: 561px; width: 1020px">
+
+        <style>
+            .round_table {
+                border-collapse: separate;
+                border-spacing: 10;
+                border: 0px solid grey;
+                border-radius: 15px;
+                -moz-border-radius: 20px;
+                padding: 2px;
+                -webkit-border-radius: 10px;
+            }
+        </style>
+        <table class="round_table" align="Center">
+            <tr>
+                <td colspan="3" style="text-align:center">
+                    <p>Fill out the form to UpDate the account in the system </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>Complete Name</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Type Your Complete Name--" name="Complete_Name"></p></p>
+                </td>
+                <td>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+                <td style="text-align:left">
+                    <p><h6>ID Number</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Type Your ID Number--" name="ID_Number"></p></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>Gender</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Select Your Gender--" name="Gender"></p></p>
+                </td>
+                <td>  
+                </td>
+                <td style="text-align:left">
+                    <p><h6>Movíl Number</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Type Your Movíl Number--" name="Movíl_Number"></p></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>Email</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Type Your Email--" name="Email"></p></p>
+                </td>
+                <td>  
+                </td>
+                <td style="text-align:left">
+                    <p><h6>Age</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Select Your Date of Birth--" name="DOB"></p></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:left">
+                    <p><h6>EPS</h6>
+                    <p><input type="text" size="30" maxlength="30" value="--Type Your Medic Number Registration--" name="MNR"></p></p>
+                </td>
+            </tr>
+            <tr><td><p></p></td></tr>
+            <tr>
+                <td colspan="3" style="text-align:center">
+                    <p>
+                        <button>
+                            <a>UpDate Patient Account</a>
+                        </button>
+                    </p>
+                </td>
+            </tr>
+            <tr><td><p></p></td></tr>
+        </table>
+</div>

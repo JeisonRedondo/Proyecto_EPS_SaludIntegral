@@ -26,3 +26,13 @@ C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\netstandard2.1\S
 C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\netstandard2.1\SaludIntegral.App.Dominio.csproj.CoreCompileInputs.cache
 C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\netstandard2.1\SaludIntegral.App.Dominio.dll
 C:\EPS_DJ\SaludIntegral.App\SaludIntegral.App.Dominio\obj\Debug\netstandard2.1\SaludIntegral.App.Dominio.pdb
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Dominio\bin\Debug\netstandard2.1\SaludIntegral.App.Dominio.deps.json
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Dominio\bin\Debug\netstandard2.1\SaludIntegral.App.Dominio.dll
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Dominio\bin\Debug\netstandard2.1\SaludIntegral.App.Dominio.pdb
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Dominio\obj\Debug\netstandard2.1\SaludIntegral.App.Dominio.csproj.AssemblyReference.cache
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Dominio\obj\Debug\netstandard2.1\SaludIntegral.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Dominio\obj\Debug\netstandard2.1\SaludIntegral.App.Dominio.AssemblyInfoInputs.cache
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Dominio\obj\Debug\netstandard2.1\SaludIntegral.App.Dominio.AssemblyInfo.cs
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Dominio\obj\Debug\netstandard2.1\SaludIntegral.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Dominio\obj\Debug\netstandard2.1\SaludIntegral.App.Dominio.dll
+C:\Proyecto_EPS_SaludIntegral\SaludIntegral.App.Dominio\obj\Debug\netstandard2.1\SaludIntegral.App.Dominio.pdb

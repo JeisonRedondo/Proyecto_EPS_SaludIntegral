@@ -165,4 +165,78 @@
     </div>
     <button type="submit" class="btn btn-primary">Editar mi cuenta paciente</button>
 </form>
+<<<<<<< HEAD
 <a class="btn btn-secondary" asp-page="./Index1">Volver</a> *@
+=======
+<<<<<<< HEAD
+=======
+<a class="btn btn-secondary" asp-page="./Index1">Volver</a> *@
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
+=======
+﻿@page
+@using SaludIntegral.App.Dominio
+@model SaludIntegral.App.Frontend.Pages.Patients.editPatientModel
+@{
+    ViewData["Title"] = "Edit Patient Account page";
+}
+<h1>Editar mi cuenta  paciente</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="patient.Id".Id"></label>
+        <input asp-for="patient.Id" class="form-control" readonly>
+    </div>
+        <div class="form-group">
+        <label asp-for="patient.Identification"></label>
+        <input asp-for="patient.Identification" class="form-control" readonly>
+    </div>
+    <div class="form-group">
+        <label asp-for="patient.Names"></label>
+        <input asp-for="patient.Names" class="form-control">
+        <span asp-validation-for="patient.Names" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="patient.DateOfBirth"></label>
+        <input asp-for="patient.DateOfBirth" class="form-control">
+        <span asp-validation-for="patient.DateOfBirth" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="patient.Gender"></label>
+        <input asp-for="patient.Gender" class="form-control">
+        
+    </div>
+    <div class="form-group">
+        <label asp-for="patient.Phone_number"></label>
+        <input asp-for="patient.Phone_number" class="form-control">
+        <span asp-validation-for="patient.Phone_number" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="patient.Email"></label>
+        <input asp-for="patient.Email" class="form-control">
+        <span asp-validation-for="patient.Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="patient.EPS"></label>
+        <input asp-for="patient.EPS" class="form-control">
+        
+    </div>
+    <div class="form-group">
+        <label asp-for="patient.Password"></label>
+        <input asp-for="patient.Password" class="form-control">
+        <span asp-validation-for="patient.Password" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="patient.Location"></label>
+        <!--<p><select asp-for="Paciente.Location" asp-items="Html.GetEnumSelectList<Locations>()" class="form-control"  placeholder="--Select Your Location--" name="Location"></select></p>-->
+        <select asp-for="patient.Location" asp-items="Html.GetEnumSelectList<Locations>()" class="form-control"></select>
+        <!--<span asp-validation-for="patient.Location" class="text-danger"></span>-->
+    </div>
+    <button type="submit" class="btn btn-primary">Editar mi cuenta paciente</button>
+</form>
+<<<<<<< HEAD
+>>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
+<a class="btn btn-secondary" asp-page="./Index1">Volver</a>
+=======
+<a class="btn btn-secondary" asp-page="./Index1">Volver</a>
+>>>>>>> 59b8786f6a3e0fd0c76ad1fb83f5d0a26c93351c
+>>>>>>> 10dafe75f481c0a513080107a58a7db60a117170
+>>>>>>> 69be1e1da61f5d8bffe2520da19f99e2a695ee83
